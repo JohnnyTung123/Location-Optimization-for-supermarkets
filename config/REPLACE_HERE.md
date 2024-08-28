@@ -1,0 +1,1 @@
+get the secret key file from the collaborators, and put it inside the config folder

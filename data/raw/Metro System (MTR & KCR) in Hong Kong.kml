@@ -1,0 +1,2694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Metro System (MTR & KCR) in Hong Kong]]></name>
+    <description><![CDATA[This map consists of the routes of the main metro system in Hong Kong.<br><br>Each color represents different route. On the three KCR lines, the pin represents the different stations on the KCR lines. For the other icon, they represent stations from the MTR system. The icon with a black dot inside represents the interchange stations.<br><br>This map also includes small introductions of each station.]]></description>
+    <Style id="icon-101-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/101-pink-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-101-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/101-pink-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-101">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-101-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-101-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-102-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/102-pink.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-102-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/102-pink.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-102">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-102-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-102-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-123-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-123-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-123">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-123-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-123-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-124-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/124-red.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-124-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/124-red.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-124">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-124-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-124-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-157-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/157-yellow-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-157-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/157-yellow-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-157">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-157-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-157-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-158-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/158-yellow.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-158-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/158-yellow.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-158">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-158-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-158-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-159-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/159-blue-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-159-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/159-blue-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-159">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-159-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-159-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-163-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/163-lightblue.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-163-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/163-lightblue.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-163">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-163-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-163-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-167-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/167-red-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-167-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/167-red-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-167">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-167-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-167-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-168-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/168-ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-168-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/168-ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-168">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-168-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-168-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-169-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/169-ltblue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-169-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/169-ltblue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-169">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-169-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-169-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-24-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/24-blue.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-24-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/24-blue.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-24">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-24-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-24-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-61-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-61-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-61">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-61-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-61-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-62-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/62-green.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-62-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/62-green.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-62">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-62-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-62-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-5000-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-000000-5000-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-000000-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-009900-3000-normal">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-009900-3000-highlight">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-009900-3000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-009900-3000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-009900-3000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3333FF-3000-normal">
+      <LineStyle>
+        <color>ffff3333</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-3333FF-3000-highlight">
+      <LineStyle>
+        <color>ffff3333</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-3333FF-3000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3333FF-3000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3333FF-3000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-33CCFF-3000-normal">
+      <LineStyle>
+        <color>ffffcc33</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-33CCFF-3000-highlight">
+      <LineStyle>
+        <color>ffffcc33</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-33CCFF-3000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-33CCFF-3000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-33CCFF-3000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-6600CC-3000-normal">
+      <LineStyle>
+        <color>ffcc0066</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-6600CC-3000-highlight">
+      <LineStyle>
+        <color>ffcc0066</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-6600CC-3000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-6600CC-3000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-6600CC-3000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-663333-5000-normal">
+      <LineStyle>
+        <color>ff333366</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-663333-5000-highlight">
+      <LineStyle>
+        <color>ff333366</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-663333-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-663333-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-663333-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-666666-5000-normal">
+      <LineStyle>
+        <color>ff666666</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-666666-5000-highlight">
+      <LineStyle>
+        <color>ff666666</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-666666-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-666666-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-666666-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-CC33CC-3000-normal">
+      <LineStyle>
+        <color>ffcc33cc</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-CC33CC-3000-highlight">
+      <LineStyle>
+        <color>ffcc33cc</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-CC33CC-3000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-CC33CC-3000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-CC33CC-3000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-3000-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FF0000-3000-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FF0000-3000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-3000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-3000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF6600-3000-normal">
+      <LineStyle>
+        <color>ff0066ff</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FF6600-3000-highlight">
+      <LineStyle>
+        <color>ff0066ff</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FF6600-3000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF6600-3000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF6600-3000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Airport Express</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFPvu0DJW4LKekhVKXOxF936weZxNkFtdX-j4iEL2QKCL9YPGn1eQ9reg-v9e7IqCY3dydPV38OpL7Nh1uROsrngGWNmthTMFrb_t9YaBxM6ZcbN9uBEpwUg16EJfddpcnBx8umvGH9s3BhRPuKwtgPXkZtP0YZ4afmmPyKVdDQTJPpV5Bu2g" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#line-33CCFF-3000</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFPvu0DJW4LKekhVKXOxF936weZxNkFtdX-j4iEL2QKCL9YPGn1eQ9reg-v9e7IqCY3dydPV38OpL7Nh1uROsrngGWNmthTMFrb_t9YaBxM6ZcbN9uBEpwUg16EJfddpcnBx8umvGH9s3BhRPuKwtgPXkZtP0YZ4afmmPyKVdDQTJPpV5Bu2g</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            113.942299,22.321837,0
+            113.937616,22.321009,0
+            113.936602,22.320388,0
+            113.935888,22.319282,0
+            113.935744,22.318617,0
+            113.93577,22.317877,0
+            113.936538,22.315937,0
+            113.937932,22.312245,0
+            113.938158,22.31151,0
+            113.938351,22.309624,0
+            113.938158,22.307877,0
+            113.93657,22.3035,0
+            113.93613,22.301505,0
+            113.936409,22.298021,0
+            113.937289,22.29546,0
+            113.939413,22.292948,0
+            113.940057,22.292392,0
+            113.943779,22.290149,0
+            113.946891,22.289881,0
+            113.950303,22.290854,0
+            113.954766,22.294745,0
+            113.957223,22.296353,0
+            113.959197,22.297068,0
+            113.965698,22.298467,0
+            113.970001,22.299371,0
+            113.972018,22.300205,0
+            113.974131,22.301078,0
+            113.977908,22.303232,0
+            113.983701,22.306498,0
+            113.989345,22.309942,0
+            113.993754,22.312691,0
+            113.995117,22.313843,0
+            113.996372,22.315143,0
+            113.998786,22.318617,0
+            114.000589,22.320155,0
+            114.004741,22.32213,0
+            114.008474,22.323817,0
+            114.010352,22.324542,0
+            114.012208,22.325068,0
+            114.013828,22.325276,0
+            114.018141,22.325048,0
+            114.02034,22.325276,0
+            114.022615,22.325971,0
+            114.024943,22.32745,0
+            114.025598,22.328145,0
+            114.030082,22.332412,0
+            114.0324,22.334635,0
+            114.034985,22.336401,0
+            114.039631,22.337632,0
+            114.042174,22.339061,0
+            114.044641,22.340371,0
+            114.046991,22.340966,0
+            114.050488,22.341423,0
+            114.052173,22.342127,0
+            114.056743,22.345154,0
+            114.059447,22.3469,0
+            114.060895,22.347605,0
+            114.081366,22.353368,0
+            114.081967,22.35334,0
+            114.088093,22.354928,0
+            114.099852,22.358212,0
+            114.101472,22.35857,0
+            114.102759,22.358768,0
+            114.105967,22.358758,0
+            114.107437,22.358312,0
+            114.108124,22.358093,0
+            114.116846,22.355295,0
+            114.121063,22.35334,0
+            114.121535,22.353122,0
+            114.124206,22.351197,0
+            114.124882,22.350115,0
+            114.131684,22.339766,0
+            114.134173,22.336133,0
+            114.137371,22.334417,0
+            114.143132,22.332194,0
+            114.147874,22.330229,0
+            114.152155,22.327807,0
+            114.155953,22.32477,0
+            114.159086,22.320264,0
+            114.160963,22.316215,0
+            114.162401,22.312632,0
+            114.162669,22.309565,0
+            114.162326,22.307292,0
+            114.162025,22.305555,0
+            114.161489,22.304741,0
+            114.159236,22.30212,0
+            114.154869,22.294695,0
+            114.15459,22.293732,0
+            114.154644,22.290059,0
+            114.154987,22.288282,0
+            114.155717,22.286595,0
+            114.157004,22.285384,0
+            114.158168,22.284892,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Asia World-Expo</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgH1fy8Sl-WTFZmSc4NhitLEg7hPEeFF36nOlaJ7zT4ohL8Nedd_gmlTj8SdnrsRKQdLRchlHMSNy65utQvuNRuSt47vDEEL9uYMG4iieALzjkoWdd8mAXEa3j80gqJMkMZS1G4prg9QkvViBNyer64N3amt6fS72Jx7N0o3bCo" height="200" width="auto" /><br><br>Airport Express<br> <br>The AsiaWorld-Expo is one of the two major convention and exhibition facilities in Hong Kong along with Hong Kong Convention and Exhibition Centre. AsiaWorld-Expo is located in the northeast corner of Chek Lap Kok island, Hong Kong, where the Hong Kong International Airport is located.]]></description>
+        <styleUrl>#icon-163</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgH1fy8Sl-WTFZmSc4NhitLEg7hPEeFF36nOlaJ7zT4ohL8Nedd_gmlTj8SdnrsRKQdLRchlHMSNy65utQvuNRuSt47vDEEL9uYMG4iieALzjkoWdd8mAXEa3j80gqJMkMZS1G4prg9QkvViBNyer64N3amt6fS72Jx7N0o3bCo</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            113.942304,22.321828,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Airport (HKG)</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEl9gjscolWOVVAqtvXRHD8Ju7gthED82MIHv1-eqBXDMikVFQzeqtHMqqKvxN-1BDjCpWbM6I95d-hrVXD66UOg4KO6UWDUy1XtAVnVFLoF14d50E08AEj6pHYpKU2RlQZSxGmSrZCvx3YBA" height="200" width="auto" /><br><br>Airport Express<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgFCkMkPGqA8uF5PgfutW0zSPEYflbUSS2u3HBpRhd6b6qqO1WBHAfOIwiRf8h3yxlvUNvCYuQ3wc5om2WguzxkvFu5K7Kai7Aq_SoIo8_WM-0_uy3MG" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-163</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEl9gjscolWOVVAqtvXRHD8Ju7gthED82MIHv1-eqBXDMikVFQzeqtHMqqKvxN-1BDjCpWbM6I95d-hrVXD66UOg4KO6UWDUy1XtAVnVFLoF14d50E08AEj6pHYpKU2RlQZSxGmSrZCvx3YBA https://lh3.googleusercontent.com/umsh/ANkjSgFCkMkPGqA8uF5PgfutW0zSPEYflbUSS2u3HBpRhd6b6qqO1WBHAfOIwiRf8h3yxlvUNvCYuQ3wc5om2WguzxkvFu5K7Kai7Aq_SoIo8_WM-0_uy3MG</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            113.936548,22.315947,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tsing Yi</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgH2iV8eyrDjALRsAX3QC7-VeEw4Wbs0lpGCSzAB4-b6fhNtfJIzpBLEGg4uHfDyCoTTpoYgdmu5Jkk4Ifsn7G_sRNhtdlsf1DWQWsehbme9P1ELkOZMwD_hkov4gP6E" height="200" width="auto" /><br><br>Airport Express<br>Interchange station with Tung Chung line]]></description>
+        <styleUrl>#icon-169</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgH2iV8eyrDjALRsAX3QC7-VeEw4Wbs0lpGCSzAB4-b6fhNtfJIzpBLEGg4uHfDyCoTTpoYgdmu5Jkk4Ifsn7G_sRNhtdlsf1DWQWsehbme9P1ELkOZMwD_hkov4gP6E</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.107459,22.358321,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kowloon</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgHNce5tG8qLNFK6OowxdKPrKF75Slf-aZELw2NiGXZrHMWIPgaPZJhFJJtc9ZvyyvzCyS6t1laKYkg3B0d4m35U0ggSmaMr3fxwCyI3EWvTQNviARcQ2eoZbRHpiogF01_Hkw" height="200" width="auto" /><br><br>Airport Express<br>Interchange station with Tung Chung line<br><br>Element is a mall built above the MTR Kowloon station.]]></description>
+        <styleUrl>#icon-169</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgHNce5tG8qLNFK6OowxdKPrKF75Slf-aZELw2NiGXZrHMWIPgaPZJhFJJtc9ZvyyvzCyS6t1laKYkg3B0d4m35U0ggSmaMr3fxwCyI3EWvTQNviARcQ2eoZbRHpiogF01_Hkw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.1615,22.304701,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hong Kong</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEd5KBrvqo-TI-Dxylh_odc_T8a-uBS1GhXpHofaYSkniG3O5-V66jqbyQZQ4K8vyPsuqBX6sZGAkyPfIQLMr0J0e37h2jFTwukI1fmGu9eUczJlxKzjmuAOlXaAGGaFaMsAQcCMtOosnPybJQQ7I0" height="200" width="auto" /><br><br>Airport Express<br>Interchange station with Tung Chung line<br><br>At Hong Kong station, airport passengers can check in their flight and luggage before arriving at the airport.]]></description>
+        <styleUrl>#icon-169</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEd5KBrvqo-TI-Dxylh_odc_T8a-uBS1GhXpHofaYSkniG3O5-V66jqbyQZQ4K8vyPsuqBX6sZGAkyPfIQLMr0J0e37h2jFTwukI1fmGu9eUczJlxKzjmuAOlXaAGGaFaMsAQcCMtOosnPybJQQ7I0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.158179,22.284872,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tung Chung Line</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFPvu0DJW4LKekhVKXOxF936weZxNkFtdX-j4iEL2QKCL9YPGn1eQ9reg-v9e7IqCY3dydPV38OpL7Nh1uROsrngGWNmthTMFrb_t9YaBxM6ZcbN9uBEpwUg16EJfddpcnBx8umvGH9s3BhRPuKwtgPXkZtP0YZ4afmmPyKVdDQTJPpV5Bu2g" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#line-FF6600-3000</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFPvu0DJW4LKekhVKXOxF936weZxNkFtdX-j4iEL2QKCL9YPGn1eQ9reg-v9e7IqCY3dydPV38OpL7Nh1uROsrngGWNmthTMFrb_t9YaBxM6ZcbN9uBEpwUg16EJfddpcnBx8umvGH9s3BhRPuKwtgPXkZtP0YZ4afmmPyKVdDQTJPpV5Bu2g</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            113.941548,22.289047,0
+            113.94688,22.289891,0
+            113.950346,22.290854,0
+            113.954819,22.294785,0
+            113.957491,22.296442,0
+            113.959293,22.296998,0
+            113.964808,22.298249,0
+            113.969979,22.299391,0
+            113.974121,22.301138,0
+            113.982232,22.305654,0
+            113.994098,22.31284,0
+            113.996136,22.314845,0
+            113.997391,22.316701,0
+            113.998743,22.318607,0
+            114.000642,22.320195,0
+            114.005653,22.322557,0
+            114.010373,22.324582,0
+            114.012165,22.325048,0
+            114.013817,22.325257,0
+            114.018227,22.325078,0
+            114.02019,22.325227,0
+            114.022722,22.326031,0
+            114.024857,22.327351,0
+            114.026102,22.328551,0
+            114.029331,22.331896,0
+            114.032571,22.334833,0
+            114.034964,22.336372,0
+            114.036713,22.336947,0
+            114.039652,22.337632,0
+            114.044641,22.340361,0
+            114.04698,22.340966,0
+            114.05037,22.341353,0
+            114.052205,22.342237,0
+            114.059694,22.347,0
+            114.081259,22.353251,0
+            114.101118,22.35849,0
+            114.102727,22.358798,0
+            114.105871,22.358768,0
+            114.107405,22.358351,0
+            114.116846,22.355315,0
+            114.121352,22.353211,0
+            114.124153,22.351187,0
+            114.126148,22.3483,0
+            114.133347,22.337205,0
+            114.134184,22.336153,0
+            114.137403,22.334407,0
+            114.143507,22.331965,0
+            114.147842,22.330169,0
+            114.152166,22.327827,0
+            114.153088,22.326914,0
+            114.155985,22.32483,0
+            114.159064,22.320165,0
+            114.160255,22.318081,0
+            114.162315,22.312681,0
+            114.162551,22.309595,0
+            114.161532,22.304721,0
+            114.159236,22.30215,0
+            114.154902,22.294606,0
+            114.154644,22.293712,0
+            114.154708,22.290089,0
+            114.155084,22.288203,0
+            114.155792,22.286654,0
+            114.157026,22.285463,0
+            114.158152,22.284922,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Tung Chung</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgGil71D_D0y5OFX3_OyWLmNUJwjirfOnbB3H9VEfnwi7UQLfycR1t1OfaCAReetQrmNnu68dEtG0SZN4ZhvLEo5Y_cLGWjHHl1JTIa4wLBhhS2AmR_TNVUHGtdDtbguRQM" height="200" width="auto" /><br><br>Tung Chung line<br><br>Tung Chung consists of mostly residential and commercial areas.]]></description>
+        <styleUrl>#icon-158</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgGil71D_D0y5OFX3_OyWLmNUJwjirfOnbB3H9VEfnwi7UQLfycR1t1OfaCAReetQrmNnu68dEtG0SZN4ZhvLEo5Y_cLGWjHHl1JTIa4wLBhhS2AmR_TNVUHGtdDtbguRQM</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            113.941537,22.289007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunny Bay</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFgJtAjBF2L4PEJX3yhuHHmRMdLNrgp5t_mDsG_y_awdGwJbXCVlWpog8RfGUqv-ib-4WD8RWhCrX3yo7k2FYsHK4RDvTiWu8EmHRSYlBBIPXjj-mLzG6VjHUocuh-HY7WiBa-EF8wLhSoDfN4WizQ" height="200" width="auto" /><br><br>Tung Chung line<br>Interchange station with Disneyland Resort line<br><br>Sunny Bay station is a interchange station that connects the city to Hong Kong Disneyland.]]></description>
+        <styleUrl>#icon-157</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFgJtAjBF2L4PEJX3yhuHHmRMdLNrgp5t_mDsG_y_awdGwJbXCVlWpog8RfGUqv-ib-4WD8RWhCrX3yo7k2FYsHK4RDvTiWu8EmHRSYlBBIPXjj-mLzG6VjHUocuh-HY7WiBa-EF8wLhSoDfN4WizQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.02931,22.331856,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tsing Yi</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgH2iV8eyrDjALRsAX3QC7-VeEw4Wbs0lpGCSzAB4-b6fhNtfJIzpBLEGg4uHfDyCoTTpoYgdmu5Jkk4Ifsn7G_sRNhtdlsf1DWQWsehbme9P1ELkOZMwD_hkov4gP6E" height="200" width="auto" /><br><br>Tung Chung line<br>Interchange station with Airport Express]]></description>
+        <styleUrl>#icon-157</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgH2iV8eyrDjALRsAX3QC7-VeEw4Wbs0lpGCSzAB4-b6fhNtfJIzpBLEGg4uHfDyCoTTpoYgdmu5Jkk4Ifsn7G_sRNhtdlsf1DWQWsehbme9P1ELkOZMwD_hkov4gP6E</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.107394,22.358331,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lai King</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgF_Dqq37tEYgQ6ktVX4jAAnpdxedh_cScPV_7zn3Te4x0q-GD3WnjCkIFQQCHyTbP4rmzmWsdXL8k2TFCc90bEbCf0crneDXemTZSXLiRYszw" height="200" width="auto" /><br><br>Tung Chung line<br>Interchange station with Tsuen Wan line]]></description>
+        <styleUrl>#icon-157</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgF_Dqq37tEYgQ6ktVX4jAAnpdxedh_cScPV_7zn3Te4x0q-GD3WnjCkIFQQCHyTbP4rmzmWsdXL8k2TFCc90bEbCf0crneDXemTZSXLiRYszw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.12618,22.34827,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nam Cheong</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFJpHwg4qZtkp5d9prTn7C992_To-9WkT6t-KVpgdV_mJ98sWPq_S2C-HBuTp4WX6ZWxfcdeEKg9-RKb4o6ytElE6hcQ_DVavb4XenHbhnW5FUD8EdALsct" height="200" width="auto" /><br><br>Tung Chung line<br>Interchange station with KCR Nam Cheong station, West Rail]]></description>
+        <styleUrl>#icon-157</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFJpHwg4qZtkp5d9prTn7C992_To-9WkT6t-KVpgdV_mJ98sWPq_S2C-HBuTp4WX6ZWxfcdeEKg9-RKb4o6ytElE6hcQ_DVavb4XenHbhnW5FUD8EdALsct</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.153078,22.326914,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Olympic</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEK4kcXp0kdke_4bb_bgqg2pT4ClVQwm1dmeyzfPv2AITe6XFXZAQAqwrYud0jQAFHgm0eq0hEroNflmQkihK16J-ZWWlL_bWujAWMtUZAAFA-Gy812UAwK" height="200" width="auto" /><br><br>Tung Chung line]]></description>
+        <styleUrl>#icon-158</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEK4kcXp0kdke_4bb_bgqg2pT4ClVQwm1dmeyzfPv2AITe6XFXZAQAqwrYud0jQAFHgm0eq0hEroNflmQkihK16J-ZWWlL_bWujAWMtUZAAFA-Gy812UAwK</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.160255,22.318061,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kowloon</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgHNce5tG8qLNFK6OowxdKPrKF75Slf-aZELw2NiGXZrHMWIPgaPZJhFJJtc9ZvyyvzCyS6t1laKYkg3B0d4m35U0ggSmaMr3fxwCyI3EWvTQNviARcQ2eoZbRHpiogF01_Hkw" height="200" width="auto" /><br><br>Tung Chung line<br>Interchange station with Airport Express<br><br>Element is a mall built above the MTR Kowloon station.]]></description>
+        <styleUrl>#icon-157</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgHNce5tG8qLNFK6OowxdKPrKF75Slf-aZELw2NiGXZrHMWIPgaPZJhFJJtc9ZvyyvzCyS6t1laKYkg3B0d4m35U0ggSmaMr3fxwCyI3EWvTQNviARcQ2eoZbRHpiogF01_Hkw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.161564,22.304731,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hong Kong</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgGBA65y2f08eisoZrYLzwUTfMh5JQUVHABMLTH07XKkLQs1qmBhBW24dKAdnbkNA8-FCQOo9tY-q4U_jcvQGiD0WA0mwzhGHMgBaPbNAYdBacAFXLDEYoy0DmdR9P1F2BtXZkb485vlWLayuy_UzISKFrJ_Uj9AeeBc_mX_rbA" height="200" width="auto" /><br><br>Tung Chung line<br>Interchange station with Airport Express<br><br><br>At Hong Kong station, airport passengers can check in their flight and luggage before arriving at the airport.<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgEd5KBrvqo-TI-Dxylh_odc_T8a-uBS1GhXpHofaYSkniG3O5-V66jqbyQZQ4K8vyPsuqBX6sZGAkyPfIQLMr0J0e37h2jFTwukI1fmGu9eUczJlxKzjmuAOlXaAGGaFaMsAQcCMtOosnPybJQQ7I0" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-157</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgGBA65y2f08eisoZrYLzwUTfMh5JQUVHABMLTH07XKkLQs1qmBhBW24dKAdnbkNA8-FCQOo9tY-q4U_jcvQGiD0WA0mwzhGHMgBaPbNAYdBacAFXLDEYoy0DmdR9P1F2BtXZkb485vlWLayuy_UzISKFrJ_Uj9AeeBc_mX_rbA https://lh3.googleusercontent.com/umsh/ANkjSgEd5KBrvqo-TI-Dxylh_odc_T8a-uBS1GhXpHofaYSkniG3O5-V66jqbyQZQ4K8vyPsuqBX6sZGAkyPfIQLMr0J0e37h2jFTwukI1fmGu9eUczJlxKzjmuAOlXaAGGaFaMsAQcCMtOosnPybJQQ7I0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.158163,22.284917,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Disneyland Resort Line</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFPvu0DJW4LKekhVKXOxF936weZxNkFtdX-j4iEL2QKCL9YPGn1eQ9reg-v9e7IqCY3dydPV38OpL7Nh1uROsrngGWNmthTMFrb_t9YaBxM6ZcbN9uBEpwUg16EJfddpcnBx8umvGH9s3BhRPuKwtgPXkZtP0YZ4afmmPyKVdDQTJPpV5Bu2g" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#line-CC33CC-3000</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFPvu0DJW4LKekhVKXOxF936weZxNkFtdX-j4iEL2QKCL9YPGn1eQ9reg-v9e7IqCY3dydPV38OpL7Nh1uROsrngGWNmthTMFrb_t9YaBxM6ZcbN9uBEpwUg16EJfddpcnBx8umvGH9s3BhRPuKwtgPXkZtP0YZ4afmmPyKVdDQTJPpV5Bu2g</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.029224,22.331836,0
+            114.04036,22.323321,0
+            114.039416,22.31947,0
+            114.045124,22.317763,0
+            114.048901,22.317882,0
+            114.048944,22.317049,0
+            114.045382,22.316731,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Disneyland Resort</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEXrbSogo6NcLSrwrRugNGO_Z_NTkdPRBBQy_7MXvP4a6LHxR685BaS1AzXElp8Ny2t8rJC3oNOlnnJgHdQDbXKfndd7Kck9rRljdwTbyZ5N7dKjZ65nnBd3A_Tz0LYRR2TRkmrFJjC2F9a4URyFlwI6c_LCA" height="200" width="auto" /><br><br>Disneyland Resort line]]></description>
+        <styleUrl>#icon-102</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEXrbSogo6NcLSrwrRugNGO_Z_NTkdPRBBQy_7MXvP4a6LHxR685BaS1AzXElp8Ny2t8rJC3oNOlnnJgHdQDbXKfndd7Kck9rRljdwTbyZ5N7dKjZ65nnBd3A_Tz0LYRR2TRkmrFJjC2F9a4URyFlwI6c_LCA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.045489,22.316711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunny Bay</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFgJtAjBF2L4PEJX3yhuHHmRMdLNrgp5t_mDsG_y_awdGwJbXCVlWpog8RfGUqv-ib-4WD8RWhCrX3yo7k2FYsHK4RDvTiWu8EmHRSYlBBIPXjj-mLzG6VjHUocuh-HY7WiBa-EF8wLhSoDfN4WizQ" height="200" width="auto" /><br><br>Disneyland Resort line<br>Interchange station with Tung Chung line<br><br>Sunny Bay station is a interchange station that connects the city to Hong Kong Disneyland.]]></description>
+        <styleUrl>#icon-101</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFgJtAjBF2L4PEJX3yhuHHmRMdLNrgp5t_mDsG_y_awdGwJbXCVlWpog8RfGUqv-ib-4WD8RWhCrX3yo7k2FYsHK4RDvTiWu8EmHRSYlBBIPXjj-mLzG6VjHUocuh-HY7WiBa-EF8wLhSoDfN4WizQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.02916,22.331836,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Island Line</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFPvu0DJW4LKekhVKXOxF936weZxNkFtdX-j4iEL2QKCL9YPGn1eQ9reg-v9e7IqCY3dydPV38OpL7Nh1uROsrngGWNmthTMFrb_t9YaBxM6ZcbN9uBEpwUg16EJfddpcnBx8umvGH9s3BhRPuKwtgPXkZtP0YZ4afmmPyKVdDQTJPpV5Bu2g" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#line-3333FF-3000</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFPvu0DJW4LKekhVKXOxF936weZxNkFtdX-j4iEL2QKCL9YPGn1eQ9reg-v9e7IqCY3dydPV38OpL7Nh1uROsrngGWNmthTMFrb_t9YaBxM6ZcbN9uBEpwUg16EJfddpcnBx8umvGH9s3BhRPuKwtgPXkZtP0YZ4afmmPyKVdDQTJPpV5Bu2g</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.152756,22.286158,0
+            114.15885,22.281472,0
+            114.164944,22.278811,0
+            114.173012,22.277382,0
+            114.183912,22.279765,0
+            114.192667,22.282941,0
+            114.193482,22.287905,0
+            114.200478,22.291102,0
+            114.209876,22.288402,0
+            114.215809,22.28457,0
+            114.221871,22.282157,0
+            114.229059,22.279109,0
+            114.239788,22.276925,0
+            114.237514,22.264475,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Chai Wan</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFMU6vl9nd0_BNmiIqtAC9W192DZkZk6ob9NOLk1CO_xppfwM6AjeN5eq81hXnCd5RI8MJAWNCPZMUIvrkPL95Fc31t1waz" height="200" width="auto" /><br><br>Island line]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFMU6vl9nd0_BNmiIqtAC9W192DZkZk6ob9NOLk1CO_xppfwM6AjeN5eq81hXnCd5RI8MJAWNCPZMUIvrkPL95Fc31t1waz</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.237556,22.264495,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Heng Fa Chuen</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFBlaN0aO4kZR5tdPK49z-xyW2sojmUrwy5UaXuHCBWAFb12ZJBWMcJ1anTc8mMbtEt45UqQqv09vh60fn3uWcHWVqvyF65LVPCKJXyJR51-7dH712b_UJ43EUlgYxE0G7G" height="200" width="auto" /><br><br>Island line<br><br>Heng Fa Chuen is a residential estate in the northeast of Hong Kong Island, Hong Kong. With a calm waterfront offering beautiful views of the Tathong Channel and away from congestion in other places, Heng Fa Chuen is administratively part of the Eastern District.]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFBlaN0aO4kZR5tdPK49z-xyW2sojmUrwy5UaXuHCBWAFb12ZJBWMcJ1anTc8mMbtEt45UqQqv09vh60fn3uWcHWVqvyF65LVPCKJXyJR51-7dH712b_UJ43EUlgYxE0G7G</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.239767,22.276945,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shau Kei Wan</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEHV-lGf3b7_0yFFrCYzxqsPdd1s9ARlrk3b1Y1wrh7Q9EPFaFFdxVQdT2mItxt5rp8li9iyGuql-EnpscKBjJU1SmDNpyRGHi40pJxtOzmt1Nmg62SqXpJqe4ccsXqWG9kohBzxuSNqRA" height="200" width="auto" /><br><br>Island line<br><br>Shau Kei Wan is a densely populated town with a lot of tourists sights such as the Hong Kong Museum of Coastal Defence, Wholesale Fish Market, SoHo East shopping centre.]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEHV-lGf3b7_0yFFrCYzxqsPdd1s9ARlrk3b1Y1wrh7Q9EPFaFFdxVQdT2mItxt5rp8li9iyGuql-EnpscKBjJU1SmDNpyRGHi40pJxtOzmt1Nmg62SqXpJqe4ccsXqWG9kohBzxuSNqRA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.229102,22.279089,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sheung Wan</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFEdn3KavJTlKw3sMHokuemnMxdccXviWCR0XVE6KAEX1miwPIQSrEA15PjOrnp3Hu2ewccUa05HAsWJ6r2A6d0d_m4tIm3jUm6MskYvdXgBS3NguVHhlkPniVeDlgqo7GyyjJ6tBfECttMAAO6YFaAtrpru4RzYi2X3zWqfGBBVYc5Iw" height="200" width="auto" /><br><br>Island line]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFEdn3KavJTlKw3sMHokuemnMxdccXviWCR0XVE6KAEX1miwPIQSrEA15PjOrnp3Hu2ewccUa05HAsWJ6r2A6d0d_m4tIm3jUm6MskYvdXgBS3NguVHhlkPniVeDlgqo7GyyjJ6tBfECttMAAO6YFaAtrpru4RzYi2X3zWqfGBBVYc5Iw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.152842,22.286039,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fortress Hill</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEOcuql0vwoMiVnYcCXGfWUjiYrxyGqHDZzH6D2G3LAKVqi5lAmlBRQMV1vt70Av6awYwRZLScYf1ozm34JjkBz3mlhty-hOaRU5BnWU-8oSFNP6OdSGN6NMEgDbafFNjZj" height="200" width="auto" /><br><br>Island line]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEOcuql0vwoMiVnYcCXGfWUjiYrxyGqHDZzH6D2G3LAKVqi5lAmlBRQMV1vt70Av6awYwRZLScYf1ozm34JjkBz3mlhty-hOaRU5BnWU-8oSFNP6OdSGN6NMEgDbafFNjZj</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.193611,22.287945,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tin Hau</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgG8_VzHurgm25YM4LcZ1LEB0MdIPrXkN17iUtIml4wDU0PudtJtPXkVO5hjSNbjsvm2w1xyYjtDL7UnbD-CTzhFSIq9XqdJZzelypbQVxc" height="200" width="auto" /><br><br>Island line<br><br>Tin Hau is an area surrounding MTR Tin Hau Station in the eastern Causeway Bay in Hong Kong. The area is indigenously the core of Causeway Bay (Tung Lo Wan), where the Tung Lo Wan Tin Hau Temple situates. After the completion of Tin Hau Station, other people living outside the area mistakenly named the area as Tin Hau. Indeed, major government offices and facilities like Causeway Bay Market are located in this area.]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgG8_VzHurgm25YM4LcZ1LEB0MdIPrXkN17iUtIml4wDU0PudtJtPXkVO5hjSNbjsvm2w1xyYjtDL7UnbD-CTzhFSIq9XqdJZzelypbQVxc</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.19271,22.282902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Causeway Bay</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgG2UguOVhGmji1Pt9Qd6ZTHKfzOlbJYUEGxZydFag6IRsEgGfTYN-0lAcrCItbpSPTu_BVm9NdN3w38kV3wsxBmrew5a-ty2ax03F0AxSvyQiFj7SXHYygcKCzmT6tXY8e6VIltYoaUUksUb42Z4guL" height="200" width="auto" /><br><br>Island line<br><br><br>Causeway Bay is an urban area with sights such as Times Square, Victoria Park, Hong Kong Central Library etc.<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgHnWvtZ-lgE8AWBxo1h4yNtyn8nals4Cg5dtMBwGZvfPmgQfxFq6hnE7WFLmqsDeHavgPvjjVqB1RuGGhkssLCdDrRUDFXv50Kowpy12q4iWFwBbSgh0H1oSqvVfQvcqtTRcdUFyXTRPFoLiVhT1Hfo06QjG4pTJFrttrxw9Z9NnYdySXGHTEfppL-0aSDQ_J9lEV7rNcvGykvfiiFhC__CtIcs" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgG2UguOVhGmji1Pt9Qd6ZTHKfzOlbJYUEGxZydFag6IRsEgGfTYN-0lAcrCItbpSPTu_BVm9NdN3w38kV3wsxBmrew5a-ty2ax03F0AxSvyQiFj7SXHYygcKCzmT6tXY8e6VIltYoaUUksUb42Z4guL https://lh3.googleusercontent.com/umsh/ANkjSgHnWvtZ-lgE8AWBxo1h4yNtyn8nals4Cg5dtMBwGZvfPmgQfxFq6hnE7WFLmqsDeHavgPvjjVqB1RuGGhkssLCdDrRUDFXv50Kowpy12q4iWFwBbSgh0H1oSqvVfQvcqtTRcdUFyXTRPFoLiVhT1Hfo06QjG4pTJFrttrxw9Z9NnYdySXGHTEfppL-0aSDQ_J9lEV7rNcvGykvfiiFhC__CtIcs</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.184127,22.279884,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wan Chai</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgGAwoUDK9SRPBLOpXYRtFkObvS33khDrG0625haHM5f8rgA1HHdujNVJ3iq5enAqaFJGJ7vQgmecjMt-Kyn90i_wOsW2P5eJk9RXqrDToMwWKzakgvD" height="200" width="auto" /><br><br>Island line<br><br>Wan Chai is one of the busiest commercial areas in Hong Kong with many small and medium-sized companies. Wan Chai North features office towers, parks, hotels and an international conference and exhibition centre. As one of the first areas developed in Hong Kong, the locale is densely populated yet with noticeable residential zones facing urban decay. Arousing considerable public concern, the government has undertaken several urban renewal projects in recent years. There are many unique buildings and skyscrapers, most notably the Hong Kong Convention and Exhibition Centre (HKCEC), Central Plaza and Hopewell Centre.]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgGAwoUDK9SRPBLOpXYRtFkObvS33khDrG0625haHM5f8rgA1HHdujNVJ3iq5enAqaFJGJ7vQgmecjMt-Kyn90i_wOsW2P5eJk9RXqrDToMwWKzakgvD</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.173055,22.277302,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Admiralty</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEbfpoR6En933f8SX1k8yLmkboSyIsohOOnTJv8arAvJllas0Jag6zOtxfMoaldp6QtjIq4yADkaJ5pAVxUPpmdDDU5vCtEEHA" height="200" width="auto" /><br><br>Island line<br>Interchange station with Tsuen Wan line<br><br>Queensway Plaza is a shopping centre located above the station. The Pacific Place shopping mall, an additional shopping centre, a number of hotels and several office tower complexes, all located on the former site of the Victoria Barracks, are connected to the MTR station via an underground walkway. Other major buildings in the area include Admiralty Centre, United Centre, Far East Financial Centre, CITIC Tower, and the Lippo Centre Towers.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEbfpoR6En933f8SX1k8yLmkboSyIsohOOnTJv8arAvJllas0Jag6zOtxfMoaldp6QtjIq4yADkaJ5pAVxUPpmdDDU5vCtEEHA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.16503,22.278732,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Central</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgHuLdkoK2uQWojeVHuhKqqZF2oqQUpw7lKp_OZ-vY8g7McXNg8GCqO9HoTtHKnPA_jQJXzqHfT0bt9nvy_-ZqjOw27_RR8dpoNI1oQaGs7HR0XGHOp54qTcMGWiBttmbXopXfYY95Z4wgvDBTkf7HfuekvOlzwVgW2DohdZEK7rN-K7BA" height="200" width="auto" /><br><br>Island line<br>Interchange station with Tsuen Wan line<br><br>Central, the central business district of Hong Kong, was commonly known as part of Victoria City. It is an area on the north shore of Hong Kong Island. It is located across Victoria Harbour from Tsim Sha Tsui, the southernmost point of Kowloon Peninsula. It is the central business district of Hong Kong, and many multinational financial services corporations have their headquarters in the area. Consulates general and consulates of many countries are also located in this area, as is Government Hill, the site of the government headquarters.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgHuLdkoK2uQWojeVHuhKqqZF2oqQUpw7lKp_OZ-vY8g7McXNg8GCqO9HoTtHKnPA_jQJXzqHfT0bt9nvy_-ZqjOw27_RR8dpoNI1oQaGs7HR0XGHOp54qTcMGWiBttmbXopXfYY95Z4wgvDBTkf7HfuekvOlzwVgW2DohdZEK7rN-K7BA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.158978,22.281313,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sai Wan Ho</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgG-Ifl2vraSeKIsmE8Swch9Y9ISbuE1N7JRqbQmcRwP9UUgq8OyzFqTuChOq0tBAudWpiv6_aA3_sLGo0CQ7zJaNHzj95-7MRy4JUUBAGepkGX4QBl98ckddQmFzHz37h49cR16Q-i_ADMB4LKMEgwW" height="200" width="auto" /><br><br>Island line]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgG-Ifl2vraSeKIsmE8Swch9Y9ISbuE1N7JRqbQmcRwP9UUgq8OyzFqTuChOq0tBAudWpiv6_aA3_sLGo0CQ7zJaNHzj95-7MRy4JUUBAGepkGX4QBl98ckddQmFzHz37h49cR16Q-i_ADMB4LKMEgwW</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.221871,22.282137,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tai Koo</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEAw7n7OhhKYzfpTo3VMUR-lzPn09-IHBpjfgEQxukaCcQNtEfA5VgIgvLGLE5mxsI8f4hWBfcSfV_0MvImKRIluHg4nu7-g4iFigJxfvaNezqXR70pkSr74FY" height="200" width="auto" /><br><br>Island line]]></description>
+        <styleUrl>#icon-24</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEAw7n7OhhKYzfpTo3VMUR-lzPn09-IHBpjfgEQxukaCcQNtEfA5VgIgvLGLE5mxsI8f4hWBfcSfV_0MvImKRIluHg4nu7-g4iFigJxfvaNezqXR70pkSr74FY</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.215809,22.284579,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Quarry Bay</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgH0gBjOkQxds8a1h8mDlyKuTSSS0yybnovOo0WkpKyOqKz357aQbZVOFjfxIJ_urcbv2PDZuG_yBtNFPN4Obot5dqrP-WmpuhwIG7VfY5W3Sv2QdJjp4Znqr5fnc25R7ZiiUQ" height="200" width="auto" /><br><br>Island line<br>Interchange station with Tseung Kwan O line<br><br>Traditionally being an industrial and residential area, there is an increased number of commercial buildings in this district over the past 2 decades.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgH0gBjOkQxds8a1h8mDlyKuTSSS0yybnovOo0WkpKyOqKz357aQbZVOFjfxIJ_urcbv2PDZuG_yBtNFPN4Obot5dqrP-WmpuhwIG7VfY5W3Sv2QdJjp4Znqr5fnc25R7ZiiUQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.209704,22.288342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>North Point</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEVQB3aNw-SyYhiuwkm63tShmA4Es_oVBty_cvGGGMIZ8pEMvwUxGHYqwn_-YNtED-sV3v2XrnieRLO3KrmmBY8KqTW9-BOQ806MDW0Axnr0BrktzFefkFvlf4X6sV22g" height="200" width="auto" /><br><br>Island line<br>Interchange station with Tseung Kwan O line<br><br>Today North Point comprises a mix of new luxury developments and older Chinese buildings. The area is undergoing something of a rejuvenation due to the rise in demand for office space in the area.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEVQB3aNw-SyYhiuwkm63tShmA4Es_oVBty_cvGGGMIZ8pEMvwUxGHYqwn_-YNtED-sV3v2XrnieRLO3KrmmBY8KqTW9-BOQ806MDW0Axnr0BrktzFefkFvlf4X6sV22g</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.200499,22.291052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tseung Kwan O Line</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFPvu0DJW4LKekhVKXOxF936weZxNkFtdX-j4iEL2QKCL9YPGn1eQ9reg-v9e7IqCY3dydPV38OpL7Nh1uROsrngGWNmthTMFrb_t9YaBxM6ZcbN9uBEpwUg16EJfddpcnBx8umvGH9s3BhRPuKwtgPXkZtP0YZ4afmmPyKVdDQTJPpV5Bu2g" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#line-6600CC-3000</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFPvu0DJW4LKekhVKXOxF936weZxNkFtdX-j4iEL2QKCL9YPGn1eQ9reg-v9e7IqCY3dydPV38OpL7Nh1uROsrngGWNmthTMFrb_t9YaBxM6ZcbN9uBEpwUg16EJfddpcnBx8umvGH9s3BhRPuKwtgPXkZtP0YZ4afmmPyKVdDQTJPpV5Bu2g</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.200606,22.291181,0
+            114.210058,22.288421,0
+            114.237202,22.297782,0
+            114.252266,22.304076,0
+            114.260226,22.307331,0
+            114.264228,22.31559,0
+            114.258145,22.32215,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>North Point</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEVQB3aNw-SyYhiuwkm63tShmA4Es_oVBty_cvGGGMIZ8pEMvwUxGHYqwn_-YNtED-sV3v2XrnieRLO3KrmmBY8KqTW9-BOQ806MDW0Axnr0BrktzFefkFvlf4X6sV22g" height="200" width="auto" /><br><br>Tseung Kwan O line<br>Interchange station with Island line<br><br>Today North Point comprises a mix of new luxury developments and older Chinese buildings. The area is undergoing something of a rejuvenation due to the rise in demand for office space in the area.]]></description>
+        <styleUrl>#icon-101</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEVQB3aNw-SyYhiuwkm63tShmA4Es_oVBty_cvGGGMIZ8pEMvwUxGHYqwn_-YNtED-sV3v2XrnieRLO3KrmmBY8KqTW9-BOQ806MDW0Axnr0BrktzFefkFvlf4X6sV22g</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.200628,22.291151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Quarry Bay</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgH0gBjOkQxds8a1h8mDlyKuTSSS0yybnovOo0WkpKyOqKz357aQbZVOFjfxIJ_urcbv2PDZuG_yBtNFPN4Obot5dqrP-WmpuhwIG7VfY5W3Sv2QdJjp4Znqr5fnc25R7ZiiUQ" height="200" width="auto" /><br><br>Tseung Kwan O line<br>Interchange station with Island line<br><br>Traditionally being an industrial and residential area, there is an increased number of commercial buildings in this district over the past 2 decades.]]></description>
+        <styleUrl>#icon-101</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgH0gBjOkQxds8a1h8mDlyKuTSSS0yybnovOo0WkpKyOqKz357aQbZVOFjfxIJ_urcbv2PDZuG_yBtNFPN4Obot5dqrP-WmpuhwIG7VfY5W3Sv2QdJjp4Znqr5fnc25R7ZiiUQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.210048,22.288431,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yau Tong</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgH9iw64T0M-M-A7NresI-sZ-E2LkF3bUDBxCeXEhzhofLzBd_q0tanqElK8VrUPmRw7dJVUALHt2Rx0plyjqROA7rqfn91U04O1-FG0B43iVudyNo2Q06z6Zq2tqbA-otBu" height="200" width="auto" /><br><br>Tseung Kwan O line<br>Interchange station with Kwun Tong line<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgEeOoX9V3ZWAhPj601v6uaQU7Ny6W6Y9gArkEPhvC85_UMKGR8AvO22TVuoKnveo6i16EOLkBOwtUraiqCdKP2X5oabenD-LsBeadtqgfxkttcbeodPHnpLliXLyQ" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-101</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgH9iw64T0M-M-A7NresI-sZ-E2LkF3bUDBxCeXEhzhofLzBd_q0tanqElK8VrUPmRw7dJVUALHt2Rx0plyjqROA7rqfn91U04O1-FG0B43iVudyNo2Q06z6Zq2tqbA-otBu https://lh3.googleusercontent.com/umsh/ANkjSgEeOoX9V3ZWAhPj601v6uaQU7Ny6W6Y9gArkEPhvC85_UMKGR8AvO22TVuoKnveo6i16EOLkBOwtUraiqCdKP2X5oabenD-LsBeadtqgfxkttcbeodPHnpLliXLyQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.237181,22.297743,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tiu Keng Leng</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgHI-KicvMfPJvK7ek8Ag0LDeQJeJVElDqL5bUqJ3le-gRUBLDyhQjHkWQFhv6FKgJ6W4I9_GFKsWhxgm2Ovf3q57XDhZbGCdRL4gNLW19FqhZGBYKC_wK2kPkYaJD3AV3wArPsbiKeHQEC4OuGPHq8sLScgrV56gp5pPglr6fDsW9ucrYXdxM5xYdUuZdZE9aBjkq-5ZD-pJ_ghswbXw6dbDdRsqrpt9-fPjaG3YVBtFMs" height="200" width="auto" /><br><br>Tseung Kwan O line<br>Interchange station with Kwun Tong line]]></description>
+        <styleUrl>#icon-101</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgHI-KicvMfPJvK7ek8Ag0LDeQJeJVElDqL5bUqJ3le-gRUBLDyhQjHkWQFhv6FKgJ6W4I9_GFKsWhxgm2Ovf3q57XDhZbGCdRL4gNLW19FqhZGBYKC_wK2kPkYaJD3AV3wArPsbiKeHQEC4OuGPHq8sLScgrV56gp5pPglr6fDsW9ucrYXdxM5xYdUuZdZE9aBjkq-5ZD-pJ_ghswbXw6dbDdRsqrpt9-fPjaG3YVBtFMs</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.252266,22.304056,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tseung Kwan O</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgE8lx98-HGQY8n7gw-1Ky7281MfquoB-pvwFieocXxX72HLS33qXYbXtPkMMQCU-9A6OVQs5vrXYqjqaPLQWvpu48TCkx48MA7noOJQ_w" height="200" width="auto" /><br><br>Tseung Kwan O line<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgFi9V6zsmzfwbjAnoHjHQ5vu6TU3WGbuvpzqpsQXrCWTfrMO689hk-uEycoCU2ebABs5o7Z3Y3m_zJC6XjHrBy_myL9ikqeyIyoFwn5qm2fIiU922Ju1p6LP8IKOFjd7U4WG1-5H7PuRELTH_nyA4nZoxpLouHkEVeHq35hgyxZo9iuxe0I4SPRV3EWNy-8" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-102</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgE8lx98-HGQY8n7gw-1Ky7281MfquoB-pvwFieocXxX72HLS33qXYbXtPkMMQCU-9A6OVQs5vrXYqjqaPLQWvpu48TCkx48MA7noOJQ_w https://lh3.googleusercontent.com/umsh/ANkjSgFi9V6zsmzfwbjAnoHjHQ5vu6TU3WGbuvpzqpsQXrCWTfrMO689hk-uEycoCU2ebABs5o7Z3Y3m_zJC6XjHrBy_myL9ikqeyIyoFwn5qm2fIiU922Ju1p6LP8IKOFjd7U4WG1-5H7PuRELTH_nyA4nZoxpLouHkEVeHq35hgyxZo9iuxe0I4SPRV3EWNy-8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.260226,22.307302,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hang Hau</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgF1qQAVPFvBXtx26xX1EaXpzDUtIbWHJKvolF54YfO5GywNVV9DcWg-WmPYI8VCzgQYK2wiLOz0w3y2u3-RHNseYm7Bo1bOs-uLePaHLWHyoewZ9ARROcolFbcaz0KHtZnePbkjR6ikJxPnyZIpaNlZxF1DH2UxDykT3750yfoCcGZ6fQrMeJuVJ5FXhAtWaRDK2r-VbFAY8u5-dwuAQ73ACaB7" height="200" width="auto" /><br><br>Tseung Kwan O line<br><br><br>Hang Hau is a town consists of condominium complexes include Residence Oasis, La Cité Noble, East Point City, Nan Fung Plaza, and On Ning Garden.<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgFKIBDcNfd0NWSoyMm3SgH2M5MdY4tJAadQUD36OYbZ4euUouFJq08o_q4qBYutljeRiMFY3E-gTfRBqu_aYrDyRfwBtZ2H7Q_yEhi5SNiYD8QeBZwrF1mlXw" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-102</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgF1qQAVPFvBXtx26xX1EaXpzDUtIbWHJKvolF54YfO5GywNVV9DcWg-WmPYI8VCzgQYK2wiLOz0w3y2u3-RHNseYm7Bo1bOs-uLePaHLWHyoewZ9ARROcolFbcaz0KHtZnePbkjR6ikJxPnyZIpaNlZxF1DH2UxDykT3750yfoCcGZ6fQrMeJuVJ5FXhAtWaRDK2r-VbFAY8u5-dwuAQ73ACaB7 https://lh3.googleusercontent.com/umsh/ANkjSgFKIBDcNfd0NWSoyMm3SgH2M5MdY4tJAadQUD36OYbZ4euUouFJq08o_q4qBYutljeRiMFY3E-gTfRBqu_aYrDyRfwBtZ2H7Q_yEhi5SNiYD8QeBZwrF1mlXw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.264228,22.31557,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Po Lam</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgHvxPi_-dwcPaq3dBDCPAZ6iwwoOxuZsgY585m3Q0hd40AtPCr-sr6MKxgPmPw4L2Nz4EVTzlniDCOLfTpVfRj8YZo6DIHISIVi-hkxtIpuaL2zIaLe2Ae6nEY1izKt" height="200" width="auto" /><br><br>Tseung Kwan O line<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgFvHQ8h7NtV4CxjoGVfKPZ_W8ld6INrvOQe6Y2kajPE1cnyC4cXYpmFGZC7epczeAfWw7oFICXmkN6jcIwtY-tpAw6pWe4QRGlj0ZF1-2Tb77b2q8_m7NwRhHOax0PAq2Cpejx0wook9X3wrzNSOKBLBbS3vkuGp93fPM6pgzS0Jw" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-102</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgHvxPi_-dwcPaq3dBDCPAZ6iwwoOxuZsgY585m3Q0hd40AtPCr-sr6MKxgPmPw4L2Nz4EVTzlniDCOLfTpVfRj8YZo6DIHISIVi-hkxtIpuaL2zIaLe2Ae6nEY1izKt https://lh3.googleusercontent.com/umsh/ANkjSgFvHQ8h7NtV4CxjoGVfKPZ_W8ld6INrvOQe6Y2kajPE1cnyC4cXYpmFGZC7epczeAfWw7oFICXmkN6jcIwtY-tpAw6pWe4QRGlj0ZF1-2Tb77b2q8_m7NwRhHOax0PAq2Cpejx0wook9X3wrzNSOKBLBbS3vkuGp93fPM6pgzS0Jw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.258124,22.32216,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kwun Tong Line</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFPvu0DJW4LKekhVKXOxF936weZxNkFtdX-j4iEL2QKCL9YPGn1eQ9reg-v9e7IqCY3dydPV38OpL7Nh1uROsrngGWNmthTMFrb_t9YaBxM6ZcbN9uBEpwUg16EJfddpcnBx8umvGH9s3BhRPuKwtgPXkZtP0YZ4afmmPyKVdDQTJPpV5Bu2g" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#line-009900-3000</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFPvu0DJW4LKekhVKXOxF936weZxNkFtdX-j4iEL2QKCL9YPGn1eQ9reg-v9e7IqCY3dydPV38OpL7Nh1uROsrngGWNmthTMFrb_t9YaBxM6ZcbN9uBEpwUg16EJfddpcnBx8umvGH9s3BhRPuKwtgPXkZtP0YZ4afmmPyKVdDQTJPpV5Bu2g</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.25208,22.30412,0
+            114.23726,22.29787,0
+            114.23313,22.30693,0
+            114.22661,22.31229,0
+            114.21902,22.31524,0
+            114.21393,22.32321,0
+            114.20864,22.33479,0
+            114.20134,22.33983,0
+            114.19435,22.34146,0
+            114.18804,22.33768,0
+            114.176332,22.336848,0
+            114.16892,22.33201,0
+            114.16827,22.32459,0
+            114.16956,22.31928,0
+            114.17088,22.31283,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Yau Ma Tei</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgHGZvXR0RW3I_yhWODHGAGzsK6uvLmGSp8y4x5roTMpEf7GTitRXf_Y8ehObaSbf7nas4elpHKfxM1nuOpBVPdPSbm405fdAFGHebWn7Bo" height="200" width="auto" /><br><br>Kwun Tong line<br>Interchange station with Tsuen Wan line<br><br>The district is mainly an area of mixed residential and retail. Every night there is a market selling many different kinds of products including clothes, decorations, VCD and toys in Temple Street, a street in the area where the famous Tin Hau Temple was built in 1876. The Temple is at Public Square Street. The square, known as Yung Shue Tau, was a night market.]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgHGZvXR0RW3I_yhWODHGAGzsK6uvLmGSp8y4x5roTMpEf7GTitRXf_Y8ehObaSbf7nas4elpHKfxM1nuOpBVPdPSbm405fdAFGHebWn7Bo</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.170887,22.312771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mong Kok</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgE8ipnAX0huMHd_YyXElKKcNfsBABnFey5_Px3N_IcdARSuK0X75Hl3rsu2w6n7fFLIQ0KPgBveyy19dK4embaxNyYKr9tOh5YdmRsVaPCZBDIFP8orkdGX-eIIFh0" height="200" width="auto" /><br><br>Kwun Tong line<br>Interchange station with Tsuen Wan line<br> <br>The district is characterized by a mixture of old and new multi-story buildings, with shops and restaurants at street level and commercial or residential units above. Major industries in Mong Kok are retail, restaurants (including fast food) and entertainment. Mong Kok preserves its traditional characteristics with an array of markets, small shops, and food stalls that have already disappeared from other areas in Hong Kong over the past several decades of economic developments. The Mong Kok area has many curb-side "food-booths". Most of them sell traditional snacks such as fish balls, fried beancurd (tofu) and various dim sum.]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgE8ipnAX0huMHd_YyXElKKcNfsBABnFey5_Px3N_IcdARSuK0X75Hl3rsu2w6n7fFLIQ0KPgBveyy19dK4embaxNyYKr9tOh5YdmRsVaPCZBDIFP8orkdGX-eIIFh0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.169557,22.319242,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prince Edward</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgF8DERReK2msYfjS7EGZQ95DQLXGxGHKAv4jS4gd8_DdS5b8oGLpxQ5h9T3FEZjFtiZyIjdYD_D3fkqFUChN1JZ8KkJyU9Cs0yqEDme7HnH69HnCYChsJTsAFkfMqxrQ8JVmyrCwUDzIAQUSRwMQVADtzi5fuzhseyDhWXunY5lDaTw-tA" height="200" width="auto" /><br><br>Kwun Tong line<br>Interchange station with Tsuen Wan line]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgF8DERReK2msYfjS7EGZQ95DQLXGxGHKAv4jS4gd8_DdS5b8oGLpxQ5h9T3FEZjFtiZyIjdYD_D3fkqFUChN1JZ8KkJyU9Cs0yqEDme7HnH69HnCYChsJTsAFkfMqxrQ8JVmyrCwUDzIAQUSRwMQVADtzi5fuzhseyDhWXunY5lDaTw-tA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.16827,22.324562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shek Kip Mei</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgG8VF4NzkAgUwLrOpF9DcMXxM3zjascfLXQ5y0WKPaThX3ZVBg_Lm1UV-X7mAPdRb54tceTO3qKTrcu6BVan3zru8-_PKT-mcEbyTO428YHOM6Qrr4VuZIi1ylNa7mJhHU000ph4KG7G8OLzp4" height="200" width="auto" /><br><br>Kwun Tong line<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgERy7lF7yJRnmhnTYAPcV5xKUyF9hc0YPYT9vSOL4tO_vJCrx3I7LuJzSsGkeq2KZfpq1Kef53Dsflj301af0CouAFQfZdJinwgXQbsUjAd13P4oLV1VYENUHvKu-3Cn0sQD9cDvFaRDlYKWnAOfP2abufY" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgG8VF4NzkAgUwLrOpF9DcMXxM3zjascfLXQ5y0WKPaThX3ZVBg_Lm1UV-X7mAPdRb54tceTO3qKTrcu6BVan3zru8-_PKT-mcEbyTO428YHOM6Qrr4VuZIi1ylNa7mJhHU000ph4KG7G8OLzp4 https://lh3.googleusercontent.com/umsh/ANkjSgERy7lF7yJRnmhnTYAPcV5xKUyF9hc0YPYT9vSOL4tO_vJCrx3I7LuJzSsGkeq2KZfpq1Kef53Dsflj301af0CouAFQfZdJinwgXQbsUjAd13P4oLV1VYENUHvKu-3Cn0sQD9cDvFaRDlYKWnAOfP2abufY</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.168946,22.331995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kowloon Tong</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgHZQh3JCUalwJQ9IyJoDg11F-KJfud-NlODpRNaN9Yg-utWLQd_ND3-lnImU9_GTnxAs1bSBw6TiJKZNeJ1j2Zcut1gd9fDC7NOv6EAr68bv-PeYX4N-vYyEZNEUCkJregBun233gUneRBl3uahGpC1G2pM" height="200" width="auto" /><br><br>Kwun Tong line<br>Interchange station with KCR, Kowloon Tong station, East Rail<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgEznyna_6X4cptOnex5jlurau4TF3czYebAfkj64TuqCh5GDVvvM7dE2wI6yaa-yNLbBWW6mvW-xe56ZnSF4P38miX0wcKRIxTko7DjajP-l7MeoJGjLdZKlCmXenY0T4jbkMqHOCZ4brg7u7ujONWXW4k" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgHZQh3JCUalwJQ9IyJoDg11F-KJfud-NlODpRNaN9Yg-utWLQd_ND3-lnImU9_GTnxAs1bSBw6TiJKZNeJ1j2Zcut1gd9fDC7NOv6EAr68bv-PeYX4N-vYyEZNEUCkJregBun233gUneRBl3uahGpC1G2pM https://lh3.googleusercontent.com/umsh/ANkjSgEznyna_6X4cptOnex5jlurau4TF3czYebAfkj64TuqCh5GDVvvM7dE2wI6yaa-yNLbBWW6mvW-xe56ZnSF4P38miX0wcKRIxTko7DjajP-l7MeoJGjLdZKlCmXenY0T4jbkMqHOCZ4brg7u7ujONWXW4k</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.176343,22.336858,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lok Fu</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgGRyflr5rhwVRT0RVidSbY7uaqdJNodIDXvdaKmsTCGPGuN7uxjyCtIiq-k3ifMLfaBA2DRMm7ynTuQEbn44cGN0I4GK0wdNETGyooHak08M2kt2lwuXWyyPN7gu6QR82YRjQ" height="200" width="auto" /><br><br>Kwun Tong line<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgER1n02ps_rNuKwPCW8zGnjiYbArtwwJxkt7OA2k4kXsxOVXEzTLbBgEbGsdXRRkEb90PGUYQNPWZbLOMckyYL61S6sWmceGKpldKYlXi7UWrmg62O5dvawW-PcJbqytDA" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgGRyflr5rhwVRT0RVidSbY7uaqdJNodIDXvdaKmsTCGPGuN7uxjyCtIiq-k3ifMLfaBA2DRMm7ynTuQEbn44cGN0I4GK0wdNETGyooHak08M2kt2lwuXWyyPN7gu6QR82YRjQ https://lh3.googleusercontent.com/umsh/ANkjSgER1n02ps_rNuKwPCW8zGnjiYbArtwwJxkt7OA2k4kXsxOVXEzTLbBgEbGsdXRRkEb90PGUYQNPWZbLOMckyYL61S6sWmceGKpldKYlXi7UWrmg62O5dvawW-PcJbqytDA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.188075,22.337652,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wong Tai Sin</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgE_K2531my9gJuK1I_RMsP94fN2Ml25KL7gf4KeQQ4FYE4-DzvXFU1TbAJQTTQoCPeXPYTcDRPH_GsKEXNCY0Rh8t0gEkPEF0MoJlAzDSre24NMVEOHw7AxVn4_CxnKz9w4c3-F28B1eKvc4rIxoCy-vUxHAm_KWg" height="200" width="auto" /><br><br>Kwun Tong line]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgE_K2531my9gJuK1I_RMsP94fN2Ml25KL7gf4KeQQ4FYE4-DzvXFU1TbAJQTTQoCPeXPYTcDRPH_GsKEXNCY0Rh8t0gEkPEF0MoJlAzDSre24NMVEOHw7AxVn4_CxnKz9w4c3-F28B1eKvc4rIxoCy-vUxHAm_KWg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.194384,22.341453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Diamond Hill</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgHdyy8eflHOh6T7SBgKMFWMizLz41Ml0Ll4pbSZ-Vhwu3Ck4RPj85XXqJt2YouWkLjdt5kj2HQGqYqMpyBtNrlLUBqC8IRZp5eInU478FQzuTDa72D-PYFsi5nV6YvE08hsAkzIZ1Fk4ubTQopWig" height="200" width="auto" /><br><br>Kwun Tong line<br><br><br>Diamond Hill is famous for its huge mall named Plaza Hollywood. It also has a lot of residential areas.<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgFC5zMGktIRFrK1epP0lXtPShzQ2BN1Bj-WZRtM5Cy810Nth0QDiMPZ8UJpzmYDxlkgc4-DzbjZ56QuoD9nvWagLlJ0YljyPN8hb5_PSdFLJmWZCo9gjAlwSenUymBO" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgHdyy8eflHOh6T7SBgKMFWMizLz41Ml0Ll4pbSZ-Vhwu3Ck4RPj85XXqJt2YouWkLjdt5kj2HQGqYqMpyBtNrlLUBqC8IRZp5eInU478FQzuTDa72D-PYFsi5nV6YvE08hsAkzIZ1Fk4ubTQopWig https://lh3.googleusercontent.com/umsh/ANkjSgFC5zMGktIRFrK1epP0lXtPShzQ2BN1Bj-WZRtM5Cy810Nth0QDiMPZ8UJpzmYDxlkgc4-DzbjZ56QuoD9nvWagLlJ0YljyPN8hb5_PSdFLJmWZCo9gjAlwSenUymBO</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.201368,22.339815,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Choi Hung</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgF-JEg6H-OZfLuAlo_VwOLia8HDcwM0PZr1AmyGhsOhADdpT0uqdEdFVDZtRM_2ONjZ8abfk03hlzPPZCI-f8f4cNhluk25oiBhXuAYnFu8WH2Iql1_pE9S" height="200" width="auto" /><br><br>Kwun Tong line<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgGCbKe8G6wI9xjjmkbx-Lbk9Wu4zEO8gimRV7a3TgODIvh7SFHej_YsrjAuvC-zIttMqgmcr56F4NDawTjXvdVvGeh9ATIsQQgXchQbXUhh_WnsTeTmEE0KGgedWX5YUOYv" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgF-JEg6H-OZfLuAlo_VwOLia8HDcwM0PZr1AmyGhsOhADdpT0uqdEdFVDZtRM_2ONjZ8abfk03hlzPPZCI-f8f4cNhluk25oiBhXuAYnFu8WH2Iql1_pE9S https://lh3.googleusercontent.com/umsh/ANkjSgGCbKe8G6wI9xjjmkbx-Lbk9Wu4zEO8gimRV7a3TgODIvh7SFHej_YsrjAuvC-zIttMqgmcr56F4NDawTjXvdVvGeh9ATIsQQgXchQbXUhh_WnsTeTmEE0KGgedWX5YUOYv</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.208632,22.334784,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kowloon Bay</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFHefHIfQPnkWLjhEtl-yk8aBbVeUNZy3-JlMoXtIu-8DKkBCbTQCcq6od0tlCXiiO3gfP9N6cZT8EHRGxPjoOzPjlLIreYEG4pCLT4H1y2fqP3sc-YuGiyOQAJykyKH_r9C66s1AbETMHZMba6BEwM-3MHYwyeCm5w5MTqxA" height="200" width="auto" /><br><br>Kwun Tong line<br><br>Kowloon Bay is famous for its newly opened shopping mall Megabox.]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFHefHIfQPnkWLjhEtl-yk8aBbVeUNZy3-JlMoXtIu-8DKkBCbTQCcq6od0tlCXiiO3gfP9N6cZT8EHRGxPjoOzPjlLIreYEG4pCLT4H1y2fqP3sc-YuGiyOQAJykyKH_r9C66s1AbETMHZMba6BEwM-3MHYwyeCm5w5MTqxA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.213953,22.323242,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ngau Tau Kok</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEnc6ZRlbLc_u3122SNOA5ylVGh79vhjRhms_ASJVnud_eW5VwHL3Ou3wi3KS7bKrFYYBaDCpYki7X2YFJgaJR4AYbTqMHmtr5lKxCARsgB397TzK3rCOTpgDLrXL5qWQ" height="200" width="auto" /><br><br>Kwun Tong line]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEnc6ZRlbLc_u3122SNOA5ylVGh79vhjRhms_ASJVnud_eW5VwHL3Ou3wi3KS7bKrFYYBaDCpYki7X2YFJgaJR4AYbTqMHmtr5lKxCARsgB397TzK3rCOTpgDLrXL5qWQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.219038,22.315212,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kwun Tong</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEn3mf20-SSnBqHD-WcL0OkE9Dey_ThPmHPyXNR5jpTL3m6oA130tJ9iVyRfRa08ifCC8Wo2vYBFD5atD0vYO6Tn5m8pbi9LrKmY4RMWM-Bz5amlGI" height="200" width="auto" /><br><br>Kwun Tong line]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEn3mf20-SSnBqHD-WcL0OkE9Dey_ThPmHPyXNR5jpTL3m6oA130tJ9iVyRfRa08ifCC8Wo2vYBFD5atD0vYO6Tn5m8pbi9LrKmY4RMWM-Bz5amlGI</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.226613,22.312275,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lam Tin</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFGZHtLJ8ZlX_hDGQFscIgCfB1hiqGKIhCybE-cbIyIuuI-Ea_l5RsSLGwF5_i9TYL-nFK1-Wl93nePf5Pboie52W2oSMkYxhTFIFaH2aodMbuW8ClehflJSZ9wuYI89lbi" height="200" width="auto" /><br><br>Kwun Tong line<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgGtcavaEbmkCtK7oHyM1Coc7-c5ozvodNYaVRYu1zZ0azEj7rgGunAwc61ZMuQtR8jbDyR3BIjnngKEsiiSzBforzZzu-pP2GUohc2fhWjOw4ajiOMgKDL3dg" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFGZHtLJ8ZlX_hDGQFscIgCfB1hiqGKIhCybE-cbIyIuuI-Ea_l5RsSLGwF5_i9TYL-nFK1-Wl93nePf5Pboie52W2oSMkYxhTFIFaH2aodMbuW8ClehflJSZ9wuYI89lbi https://lh3.googleusercontent.com/umsh/ANkjSgGtcavaEbmkCtK7oHyM1Coc7-c5ozvodNYaVRYu1zZ0azEj7rgGunAwc61ZMuQtR8jbDyR3BIjnngKEsiiSzBforzZzu-pP2GUohc2fhWjOw4ajiOMgKDL3dg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.233147,22.306885,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yau Tong</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgH9iw64T0M-M-A7NresI-sZ-E2LkF3bUDBxCeXEhzhofLzBd_q0tanqElK8VrUPmRw7dJVUALHt2Rx0plyjqROA7rqfn91U04O1-FG0B43iVudyNo2Q06z6Zq2tqbA-otBu" height="200" width="auto" /><br><br>Kwun Tong line<br>Interchange station with Tseung Kwan O line<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgEeOoX9V3ZWAhPj601v6uaQU7Ny6W6Y9gArkEPhvC85_UMKGR8AvO22TVuoKnveo6i16EOLkBOwtUraiqCdKP2X5oabenD-LsBeadtqgfxkttcbeodPHnpLliXLyQ" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgH9iw64T0M-M-A7NresI-sZ-E2LkF3bUDBxCeXEhzhofLzBd_q0tanqElK8VrUPmRw7dJVUALHt2Rx0plyjqROA7rqfn91U04O1-FG0B43iVudyNo2Q06z6Zq2tqbA-otBu https://lh3.googleusercontent.com/umsh/ANkjSgEeOoX9V3ZWAhPj601v6uaQU7Ny6W6Y9gArkEPhvC85_UMKGR8AvO22TVuoKnveo6i16EOLkBOwtUraiqCdKP2X5oabenD-LsBeadtqgfxkttcbeodPHnpLliXLyQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.237256,22.297832,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tiu Keng Leng</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgHI-KicvMfPJvK7ek8Ag0LDeQJeJVElDqL5bUqJ3le-gRUBLDyhQjHkWQFhv6FKgJ6W4I9_GFKsWhxgm2Ovf3q57XDhZbGCdRL4gNLW19FqhZGBYKC_wK2kPkYaJD3AV3wArPsbiKeHQEC4OuGPHq8sLScgrV56gp5pPglr6fDsW9ucrYXdxM5xYdUuZdZE9aBjkq-5ZD-pJ_ghswbXw6dbDdRsqrpt9-fPjaG3YVBtFMs" height="200" width="auto" /><br><br>Kwun Tong line <br>Interchange station with Tseung Kwan O line]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgHI-KicvMfPJvK7ek8Ag0LDeQJeJVElDqL5bUqJ3le-gRUBLDyhQjHkWQFhv6FKgJ6W4I9_GFKsWhxgm2Ovf3q57XDhZbGCdRL4gNLW19FqhZGBYKC_wK2kPkYaJD3AV3wArPsbiKeHQEC4OuGPHq8sLScgrV56gp5pPglr6fDsW9ucrYXdxM5xYdUuZdZE9aBjkq-5ZD-pJ_ghswbXw6dbDdRsqrpt9-fPjaG3YVBtFMs</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.252115,22.304106,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tsuen Wan Line</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFPvu0DJW4LKekhVKXOxF936weZxNkFtdX-j4iEL2QKCL9YPGn1eQ9reg-v9e7IqCY3dydPV38OpL7Nh1uROsrngGWNmthTMFrb_t9YaBxM6ZcbN9uBEpwUg16EJfddpcnBx8umvGH9s3BhRPuKwtgPXkZtP0YZ4afmmPyKVdDQTJPpV5Bu2g" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#line-FF0000-3000</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFPvu0DJW4LKekhVKXOxF936weZxNkFtdX-j4iEL2QKCL9YPGn1eQ9reg-v9e7IqCY3dydPV38OpL7Nh1uROsrngGWNmthTMFrb_t9YaBxM6ZcbN9uBEpwUg16EJfddpcnBx8umvGH9s3BhRPuKwtgPXkZtP0YZ4afmmPyKVdDQTJPpV5Bu2g</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.159075,22.281502,0
+            114.164793,22.27903,0
+            114.17225,22.29678,0
+            114.171875,22.304929,0
+            114.170544,22.312771,0
+            114.169235,22.319312,0
+            114.167969,22.324552,0
+            114.162519,22.330655,0
+            114.156436,22.335409,0
+            114.147971,22.337414,0
+            114.137714,22.338327,0
+            114.126309,22.348369,0
+            114.127843,22.356744,0
+            114.131137,22.363005,0
+            114.125698,22.370793,0
+            114.118638,22.373393,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Tsuen Wan</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEYL-py3QLETwSICJyn8GJsw0Z3yab4mszimVVokrSUSyTCc9Hit8kVfpbZ6RgrVNEerI5gLduVG4_WaKDZCUkcEgYPWSUdrYkHJ-nEY-mthAdpwfsWlojsh-f-R1vUyIKivm_kCkf1UL6gXC3mIw" height="200" width="auto" /><br><br>Tsuen Wan line<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgEMVj7d3uCndIkGukDGc5zKGmjL8n7j-0nH8_v8_ITCgVmq9_ScU04V8sEvM477ClTtJcxv8hsT1dWhwNfFpjhCaHN7JQW8X8dduQbP7nQgbHciegZyYMRhjGkfcD1aIQ" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEYL-py3QLETwSICJyn8GJsw0Z3yab4mszimVVokrSUSyTCc9Hit8kVfpbZ6RgrVNEerI5gLduVG4_WaKDZCUkcEgYPWSUdrYkHJ-nEY-mthAdpwfsWlojsh-f-R1vUyIKivm_kCkf1UL6gXC3mIw https://lh3.googleusercontent.com/umsh/ANkjSgEMVj7d3uCndIkGukDGc5zKGmjL8n7j-0nH8_v8_ITCgVmq9_ScU04V8sEvM477ClTtJcxv8hsT1dWhwNfFpjhCaHN7JQW8X8dduQbP7nQgbHciegZyYMRhjGkfcD1aIQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.118659,22.373363,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tai Wo Hau</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEM5_3IgmZ-f67DomdJy3hcdS1OTeAdvYOZ8q6sT6ZvQItbXLua152gBSSRYi8uBIiTkeQM_xmUAqgLNRZrxm86nuXzgERJQFLDoCaED6mkLQIiVTeLTyZQLT8wI8zim8F1S6dU4e9jqptCF-u7VAqI454qo4Eu5kmXoPWjEsM8qqs_" height="200" width="auto" /><br><br>Tsuen Wan line<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgEVS8bMNi5OUJljOmIN-5UBzqHDJtJc-6EzrR24ZqefxZb2oSEPlSw5RSGDFuV3OJnHJd8Bwda4Igx2_QdnJR7gXNxCQbcuaFL_WZeuVyeHStceUl4smpWFbds_E0HQXTqtU-yZ0Wtk2G__yeAMxW2OS_UzYlIhp8361KQ" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEM5_3IgmZ-f67DomdJy3hcdS1OTeAdvYOZ8q6sT6ZvQItbXLua152gBSSRYi8uBIiTkeQM_xmUAqgLNRZrxm86nuXzgERJQFLDoCaED6mkLQIiVTeLTyZQLT8wI8zim8F1S6dU4e9jqptCF-u7VAqI454qo4Eu5kmXoPWjEsM8qqs_ https://lh3.googleusercontent.com/umsh/ANkjSgEVS8bMNi5OUJljOmIN-5UBzqHDJtJc-6EzrR24ZqefxZb2oSEPlSw5RSGDFuV3OJnHJd8Bwda4Igx2_QdnJR7gXNxCQbcuaFL_WZeuVyeHStceUl4smpWFbds_E0HQXTqtU-yZ0Wtk2G__yeAMxW2OS_UzYlIhp8361KQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.125698,22.370783,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kwai Hing</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgG6ZdNCwy0J-ILOqQA_bIWYVhpxapMVAjXukH26Q4FgzD9WmqPB2QCf8qJFRDtVtCDjnzFxR9pHspCHyXykGHGkHthGZECxrtr3I5J1thzVf3eFrYTvXM3y_Fa1dLpyG4UgL_Os2_bRKoC51S_cnwLgF26VoPFGIzef_s-pNEus4_4TOHnNuPqD88vFrw" height="200" width="auto" /><br><br>Tsuen Wan line<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgHtAs5kmc-g3vHjc_A2v54jTcewQKGIPvSHoTezscIpYHZEoZWQ7r5K6zBrGf15pls7dZc8ikTZJq7gbmdMkXRvQqi4YzsvnITTf4tBP6K36rf6Ry-x1iWamvMXESftPPHy6OcmI6cvL7eodKAHedThFTW4RhO-u7x2" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgG6ZdNCwy0J-ILOqQA_bIWYVhpxapMVAjXukH26Q4FgzD9WmqPB2QCf8qJFRDtVtCDjnzFxR9pHspCHyXykGHGkHthGZECxrtr3I5J1thzVf3eFrYTvXM3y_Fa1dLpyG4UgL_Os2_bRKoC51S_cnwLgF26VoPFGIzef_s-pNEus4_4TOHnNuPqD88vFrw https://lh3.googleusercontent.com/umsh/ANkjSgHtAs5kmc-g3vHjc_A2v54jTcewQKGIPvSHoTezscIpYHZEoZWQ7r5K6zBrGf15pls7dZc8ikTZJq7gbmdMkXRvQqi4YzsvnITTf4tBP6K36rf6Ry-x1iWamvMXESftPPHy6OcmI6cvL7eodKAHedThFTW4RhO-u7x2</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.131169,22.362995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kwai Fong</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEqequBUuAFAM2cE2HymkKXSMeqUVekOcsgamcDKupYSjAFuyLquWuCC7d460xDAtCCw_AZff0f7XxQmrcZ_fWDn5tpSa3E-9H5Pw8SNt9L_w67hf0Ji3Iu" height="200" width="auto" /><br><br>Tsuen Wan line]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEqequBUuAFAM2cE2HymkKXSMeqUVekOcsgamcDKupYSjAFuyLquWuCC7d460xDAtCCw_AZff0f7XxQmrcZ_fWDn5tpSa3E-9H5Pw8SNt9L_w67hf0Ji3Iu</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.127833,22.356694,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lai King</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgF_Dqq37tEYgQ6ktVX4jAAnpdxedh_cScPV_7zn3Te4x0q-GD3WnjCkIFQQCHyTbP4rmzmWsdXL8k2TFCc90bEbCf0crneDXemTZSXLiRYszw" height="200" width="auto" /><br><br>Tsuen Wan line <br>Interchange station with Tung Chung line]]></description>
+        <styleUrl>#icon-123</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgF_Dqq37tEYgQ6ktVX4jAAnpdxedh_cScPV_7zn3Te4x0q-GD3WnjCkIFQQCHyTbP4rmzmWsdXL8k2TFCc90bEbCf0crneDXemTZSXLiRYszw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.126309,22.348339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mei Foo</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEufhcCflJwWLb7Gr19gyXBqnqunXN6ltyQceggPCHVVDswd_LpuOt7hU8wl66jLVYMxb4zPtnfDPrJE9Ag1bZIH-7P5AUryCfTl9pZp0D95NA8" height="200" width="auto" /><br><br>Tsuen Wan line<br><br>Interchange station with KCR Mei Foo station, West Rail<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgG58h-4aCua48Luc2Zjtw6PB0CdfRGdRBvkuHnxKHWrzP9lQwctlbLBjMsvskIYvwipUQ6WXxdDvL0w3pCUm3PSFIWwOeBVgWtX4jB2xSzVaVo8Z9I_w77nAw" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-123</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEufhcCflJwWLb7Gr19gyXBqnqunXN6ltyQceggPCHVVDswd_LpuOt7hU8wl66jLVYMxb4zPtnfDPrJE9Ag1bZIH-7P5AUryCfTl9pZp0D95NA8 https://lh3.googleusercontent.com/umsh/ANkjSgG58h-4aCua48Luc2Zjtw6PB0CdfRGdRBvkuHnxKHWrzP9lQwctlbLBjMsvskIYvwipUQ6WXxdDvL0w3pCUm3PSFIWwOeBVgWtX4jB2xSzVaVo8Z9I_w77nAw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.137746,22.338297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lai Chi Kok</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFhUIYXEZccShPXzG_QGn8zZI-irhWAHIgBaz2u3PGxBamRT-grLwKLV4g0a60Pa60iv9RyAV0ihRlcyBii9EZX5rPogyJzYyY-k14FBU4BNErr0Q" height="200" width="auto" /><br><br>Tsuen Wan line<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgH64m_t6AIf441OWKGLhfxi7b262NwHtMRv45oJ9FJqhI2GrlscO9WO1cEGj1ssnTf6aypNRUWewCQuOrT2p8I0KLFme4HqEpI0az9Mx_Npzz_3UKw_QElx5AbJjj5R3A" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFhUIYXEZccShPXzG_QGn8zZI-irhWAHIgBaz2u3PGxBamRT-grLwKLV4g0a60Pa60iv9RyAV0ihRlcyBii9EZX5rPogyJzYyY-k14FBU4BNErr0Q https://lh3.googleusercontent.com/umsh/ANkjSgH64m_t6AIf441OWKGLhfxi7b262NwHtMRv45oJ9FJqhI2GrlscO9WO1cEGj1ssnTf6aypNRUWewCQuOrT2p8I0KLFme4HqEpI0az9Mx_Npzz_3UKw_QElx5AbJjj5R3A</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.147938,22.337384,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cheung Sha Wan</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgETZKq9munHX8ik-X0fazNWDAqwP7nBDj25iQXxyEvTGB4D63OPHyATcCFsEkSd0ecvHRo9lKWjMTzAfywS4Z-ip1mrrFRngMx7pzsKnV30HIZHcs6DZ80eNIOzcdvOHIES8w" height="200" width="auto" /><br><br>Tsuen Wan line<br><br>Cheung Sha Wan is an area between Lai Chi Kok and Sham Shui Po in New Kowloon, Hong Kong. It is mainly residential to the north and south, with an industrial area in between. Cheung Sha Wan was a manufacturing centre after the war, with a number of light industries, especially textile and clothing. After the PRC implemented its open door policy in the 1980s, many factories relocated to the mainland, vacating the area's industrial buildings (some of which have since been converted into offices and warehouses). There are also many wholesale clothes markets in the area.]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgETZKq9munHX8ik-X0fazNWDAqwP7nBDj25iQXxyEvTGB4D63OPHyATcCFsEkSd0ecvHRo9lKWjMTzAfywS4Z-ip1mrrFRngMx7pzsKnV30HIZHcs6DZ80eNIOzcdvOHIES8w</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.156446,22.335409,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sham Shui Po</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFQhbDzEjxy1OadaOeOovNDZifxpwmS1YvSrV9dISHlBB20sBJhoiA43pYnTzrTb75uQB_CRCB57CYLzTvr4uurVqHqys6LFHIBgtFNJptWKhgaqopRPQ" height="200" width="auto" /><br><br>Tsuen Wan line<br><br>Sham Shui Po is a district of Hong Kong, best known for its street market for electronic devices. Sham Shui Po is an area where urban decay is serious in Hong Kong, the government is concerned about the problem and has decided to carry out urban renewal project.<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgH7Cv7P1MzSReoqibCb7p2UvVd4Ekz_MSWlvaI9-xlzwey0bJl3M_6IH-90bkTx-wxP6GSC_8C8qKXwSvFvaK6_7aPbV8NYrGJsmxQ8wT51Qt4qrmjZ2mEZhhaFTo6K" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFQhbDzEjxy1OadaOeOovNDZifxpwmS1YvSrV9dISHlBB20sBJhoiA43pYnTzrTb75uQB_CRCB57CYLzTvr4uurVqHqys6LFHIBgtFNJptWKhgaqopRPQ https://lh3.googleusercontent.com/umsh/ANkjSgH7Cv7P1MzSReoqibCb7p2UvVd4Ekz_MSWlvaI9-xlzwey0bJl3M_6IH-90bkTx-wxP6GSC_8C8qKXwSvFvaK6_7aPbV8NYrGJsmxQ8wT51Qt4qrmjZ2mEZhhaFTo6K</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.162519,22.330616,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prince Edward</name>
+        <description><![CDATA[Tsuen Wan line<br>Interchange station with Kwun Tong line<br>Interchange station with Tsuen Wan line]]></description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            114.167969,22.324532,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mong Kok</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgE8ipnAX0huMHd_YyXElKKcNfsBABnFey5_Px3N_IcdARSuK0X75Hl3rsu2w6n7fFLIQ0KPgBveyy19dK4embaxNyYKr9tOh5YdmRsVaPCZBDIFP8orkdGX-eIIFh0" height="200" width="auto" /><br><br>Tsuen Wan line <br>Interchange station with Kwun Tong line<br> <br>The district is characterized by a mixture of old and new multi-story buildings, with shops and restaurants at street level and commercial or residential units above. Major industries in Mong Kok are retail, restaurants (including fast food) and entertainment. Mong Kok preserves its traditional characteristics with an array of markets, small shops, and food stalls that have already disappeared from other areas in Hong Kong over the past several decades of economic developments. The Mong Kok area has many curb-side "food-booths". Most of them sell traditional snacks such as fish balls, fried beancurd (tofu) and various dim sum.]]></description>
+        <styleUrl>#icon-123</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgE8ipnAX0huMHd_YyXElKKcNfsBABnFey5_Px3N_IcdARSuK0X75Hl3rsu2w6n7fFLIQ0KPgBveyy19dK4embaxNyYKr9tOh5YdmRsVaPCZBDIFP8orkdGX-eIIFh0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.169267,22.319292,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yau Ma Tei</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgHGZvXR0RW3I_yhWODHGAGzsK6uvLmGSp8y4x5roTMpEf7GTitRXf_Y8ehObaSbf7nas4elpHKfxM1nuOpBVPdPSbm405fdAFGHebWn7Bo" height="200" width="auto" /><br><br>Tsuen Wan line<br>Interchange station with Kwun Tong line<br><br>The district is mainly an area of mixed residential and retail. Every night there is a market selling many different kinds of products including clothes, decorations, VCD and toys in Temple Street, a street in the area where the famous Tin Hau Temple was built in 1876. The Temple is at Public Square Street. The square, known as Yung Shue Tau, was a night market.]]></description>
+        <styleUrl>#icon-123</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgHGZvXR0RW3I_yhWODHGAGzsK6uvLmGSp8y4x5roTMpEf7GTitRXf_Y8ehObaSbf7nas4elpHKfxM1nuOpBVPdPSbm405fdAFGHebWn7Bo</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.170555,22.312721,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jordan</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgGKKMV5ixZiWDQAuz2Fr0t9wHNF002251vkHiRK0Z0Pa96hmvv0o-JTqzq8wSADHldIUkHr18D8e_6ssDsI4SwRXQXsnj_ipYllEoDBu90FGLewdBiqsE0peQ" height="200" width="auto" /><br><br>Tsuen Wan line]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgGKKMV5ixZiWDQAuz2Fr0t9wHNF002251vkHiRK0Z0Pa96hmvv0o-JTqzq8wSADHldIUkHr18D8e_6ssDsI4SwRXQXsnj_ipYllEoDBu90FGLewdBiqsE0peQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.171875,22.3049,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tsim Sha Tsui</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgHMrHczkrIMLANWQ_l-yTEGuNa9UlhXiF4cBS5hl6w9oMEeOYN91Ffef-8jICl4sFX0CMUzfSU564syW59Ewp_ERbOR0bAQFJ6QkdTv0oN8iDtgi34_RnhZJjF0tmbMYg" height="200" width="auto" /><br><br>Tsuen Wan line]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgHMrHczkrIMLANWQ_l-yTEGuNa9UlhXiF4cBS5hl6w9oMEeOYN91Ffef-8jICl4sFX0CMUzfSU564syW59Ewp_ERbOR0bAQFJ6QkdTv0oN8iDtgi34_RnhZJjF0tmbMYg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.172239,22.29679,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Admiralty</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEbfpoR6En933f8SX1k8yLmkboSyIsohOOnTJv8arAvJllas0Jag6zOtxfMoaldp6QtjIq4yADkaJ5pAVxUPpmdDDU5vCtEEHA" height="200" width="auto" /><br><br>Tsuen Wan line<br>Interchange station with Island line<br><br>Queensway Plaza is a shopping centre located above the station. The Pacific Place shopping mall, an additional shopping centre, a number of hotels and several office tower complexes, all located on the former site of the Victoria Barracks, are connected to the MTR station via an underground walkway. Other major buildings in the area include Admiralty Centre, United Centre, Far East Financial Centre, CITIC Tower, and the Lippo Centre Towers.]]></description>
+        <styleUrl>#icon-123</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEbfpoR6En933f8SX1k8yLmkboSyIsohOOnTJv8arAvJllas0Jag6zOtxfMoaldp6QtjIq4yADkaJ5pAVxUPpmdDDU5vCtEEHA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.164783,22.279,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Central</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgHuLdkoK2uQWojeVHuhKqqZF2oqQUpw7lKp_OZ-vY8g7McXNg8GCqO9HoTtHKnPA_jQJXzqHfT0bt9nvy_-ZqjOw27_RR8dpoNI1oQaGs7HR0XGHOp54qTcMGWiBttmbXopXfYY95Z4wgvDBTkf7HfuekvOlzwVgW2DohdZEK7rN-K7BA" height="200" width="auto" /><br><br>Tsuen Wan line<br>Interchange station with Island line<br><br>Central, the central business district of Hong Kong, was commonly known as part of Victoria City. It is an area on the north shore of Hong Kong Island. It is located across Victoria Harbour from Tsim Sha Tsui, the southernmost point of Kowloon Peninsula. It is the central business district of Hong Kong, and many multinational financial services corporations have their headquarters in the area. Consulates general and consulates of many countries are also located in this area, as is Government Hill, the site of the government headquarters.]]></description>
+        <styleUrl>#icon-123</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgHuLdkoK2uQWojeVHuhKqqZF2oqQUpw7lKp_OZ-vY8g7McXNg8GCqO9HoTtHKnPA_jQJXzqHfT0bt9nvy_-ZqjOw27_RR8dpoNI1oQaGs7HR0XGHOp54qTcMGWiBttmbXopXfYY95Z4wgvDBTkf7HfuekvOlzwVgW2DohdZEK7rN-K7BA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.159096,22.281502,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Rail</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgG76GIK8Mfqdy_hbLPvqULNhQMT2pSDL1Gbea9XS6sITXvza_aoe9_bjVT9u4eVI_9J8OihSGsdB8JzdPZH0SCM6Sjzqwk0TgWQ6ZNE1CRwwEcTkke2Px6OPvayY_DK4NUfxBdw0Kc60RE" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#line-663333-5000</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgG76GIK8Mfqdy_hbLPvqULNhQMT2pSDL1Gbea9XS6sITXvza_aoe9_bjVT9u4eVI_9J8OihSGsdB8JzdPZH0SCM6Sjzqwk0TgWQ6ZNE1CRwwEcTkke2Px6OPvayY_DK4NUfxBdw0Kc60RE</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            113.973182,22.394116,0
+            113.97867,22.412392,0
+            114.00473,22.44802,0
+            114.025608,22.447554,0
+            114.035283,22.446195,0
+            114.06347,22.434672,0
+            114.109991,22.369265,0
+            114.137875,22.338356,0
+            114.153153,22.326904,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Nam Cheong</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFJpHwg4qZtkp5d9prTn7C992_To-9WkT6t-KVpgdV_mJ98sWPq_S2C-HBuTp4WX6ZWxfcdeEKg9-RKb4o6ytElE6hcQ_DVavb4XenHbhnW5FUD8EdALsct" height="200" width="auto" /><br><br>West Rail<br>Interchange station with MTR Nam Cheong station, Tsung Chung line]]></description>
+        <styleUrl>#icon-167</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFJpHwg4qZtkp5d9prTn7C992_To-9WkT6t-KVpgdV_mJ98sWPq_S2C-HBuTp4WX6ZWxfcdeEKg9-RKb4o6ytElE6hcQ_DVavb4XenHbhnW5FUD8EdALsct</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.153147,22.326869,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mei Foo</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEufhcCflJwWLb7Gr19gyXBqnqunXN6ltyQceggPCHVVDswd_LpuOt7hU8wl66jLVYMxb4zPtnfDPrJE9Ag1bZIH-7P5AUryCfTl9pZp0D95NA8" height="200" width="auto" /><br><br>West Rail<br>Interchange station with MTR Mei Foo station, Tsung Chung line<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgG58h-4aCua48Luc2Zjtw6PB0CdfRGdRBvkuHnxKHWrzP9lQwctlbLBjMsvskIYvwipUQ6WXxdDvL0w3pCUm3PSFIWwOeBVgWtX4jB2xSzVaVo8Z9I_w77nAw" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-167</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEufhcCflJwWLb7Gr19gyXBqnqunXN6ltyQceggPCHVVDswd_LpuOt7hU8wl66jLVYMxb4zPtnfDPrJE9Ag1bZIH-7P5AUryCfTl9pZp0D95NA8 https://lh3.googleusercontent.com/umsh/ANkjSgG58h-4aCua48Luc2Zjtw6PB0CdfRGdRBvkuHnxKHWrzP9lQwctlbLBjMsvskIYvwipUQ6WXxdDvL0w3pCUm3PSFIWwOeBVgWtX4jB2xSzVaVo8Z9I_w77nAw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.137875,22.338337,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tsuen Wan West</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgG2mXekBzbmK4jQQ47RhsoEEm_rPlIWtq-l8MyyVOQO8d3wGBmSpEvyNHi3dqe4JxhJNUBTi2Rx2iGO0EcvqNUX1qvgtzFtFvDSnuKkMJvl_xJj31AjEvjgiTIhvw" height="200" width="auto" /><br><br>West Rail<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgEEkOFZtD1cizyssii9ovZEzotG0S59cc8AzgHrcKBNj3rfuB38fnqKtN0s2XKOm-arfIKRzRBPBTXmmeLkM46N6ehgCNiAGlrQ3sYcP2bhVlX6gVXkVhgC" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-167</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgG2mXekBzbmK4jQQ47RhsoEEm_rPlIWtq-l8MyyVOQO8d3wGBmSpEvyNHi3dqe4JxhJNUBTi2Rx2iGO0EcvqNUX1qvgtzFtFvDSnuKkMJvl_xJj31AjEvjgiTIhvw https://lh3.googleusercontent.com/umsh/ANkjSgEEkOFZtD1cizyssii9ovZEzotG0S59cc8AzgHrcKBNj3rfuB38fnqKtN0s2XKOm-arfIKRzRBPBTXmmeLkM46N6ehgCNiAGlrQ3sYcP2bhVlX6gVXkVhgC</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.110055,22.369206,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kam Sheung Road</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgGyq9kuvFZDFMhYmplxPt8hWlPrAOv29i8pMcrVrcu39CGJGd6K9qI4iXOcRiYOTv5KXwYmBdywBeXR3Rzlt3RqGd7fepBCNfy6hv1PdPWnkFksJJJYvOp2KEw1ok3TTUxXqcKH_9RHQbeNKlPACLQJMkqNSgdxiQ_5XoxxPFuChFynvYRleZYnk6jwPl4w_OmdB68hIL2-yEspe4q8Rnfs2Kv4HOtuQZRVx_pIPlBZR9vGd7s" height="200" width="auto" /><br><br>West Rail]]></description>
+        <styleUrl>#icon-167</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgGyq9kuvFZDFMhYmplxPt8hWlPrAOv29i8pMcrVrcu39CGJGd6K9qI4iXOcRiYOTv5KXwYmBdywBeXR3Rzlt3RqGd7fepBCNfy6hv1PdPWnkFksJJJYvOp2KEw1ok3TTUxXqcKH_9RHQbeNKlPACLQJMkqNSgdxiQ_5XoxxPFuChFynvYRleZYnk6jwPl4w_OmdB68hIL2-yEspe4q8Rnfs2Kv4HOtuQZRVx_pIPlBZR9vGd7s</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.063535,22.434712,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yuen Long</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEuY9G8t10ZUjyutIGNfPIKn-QEuXCoUFbTQe43QkE_4I5gaQVsRMnMCd4MI6J6qE_ysiVa8h3iTigXQkmduZtw0VrNU5Fwne-Y2Lj5GeYvvgn4rgB3HTaxDUJey_WNt-UGYSXsHLhtfsR6Adk3HhadyqmkGWKl4nAPgswUHdKxPrWLNCS8" height="200" width="auto" /><br><br>West Rail]]></description>
+        <styleUrl>#icon-167</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEuY9G8t10ZUjyutIGNfPIKn-QEuXCoUFbTQe43QkE_4I5gaQVsRMnMCd4MI6J6qE_ysiVa8h3iTigXQkmduZtw0VrNU5Fwne-Y2Lj5GeYvvgn4rgB3HTaxDUJey_WNt-UGYSXsHLhtfsR6Adk3HhadyqmkGWKl4nAPgswUHdKxPrWLNCS8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.035294,22.446178,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Long Ping</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFEHlhD0Zw6yeaJa0Y3SVLXrsBD3ChY6H3Qmcl6B4iltvAt5B2VJ-35f_PFXeSIcFZhj-utcO721ba0kEAqiv-LNpxHemKEYySjgnR0QRim6gmohdzMqDbIaQ8myKPFAY_RQ22KFapDzorjwDjzxSrePH5lCpeMk3IaB4hppSFUgOkrFGBBlQRSNshsUGeLdXVXGUHx62PTq3i_812tW0uShgAU1eNEnqIXT1AizRKj" height="200" width="auto" /><br><br>West Rail<br><br>Long Ping is an MTR West Rail Line station located in the northern part of Yuen Long Town and southeast of Long Ping Estate, in the New Territories, Hong Kong. The station is elevated over Yuen Long Nullah with two public transport interchanges on the northeast and the south side. Cycle parks are also available. A network of footbridges connecting to Long Ping Estate and other nearby housing estates is provided.]]></description>
+        <styleUrl>#icon-167</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFEHlhD0Zw6yeaJa0Y3SVLXrsBD3ChY6H3Qmcl6B4iltvAt5B2VJ-35f_PFXeSIcFZhj-utcO721ba0kEAqiv-LNpxHemKEYySjgnR0QRim6gmohdzMqDbIaQ8myKPFAY_RQ22KFapDzorjwDjzxSrePH5lCpeMk3IaB4hppSFUgOkrFGBBlQRSNshsUGeLdXVXGUHx62PTq3i_812tW0uShgAU1eNEnqIXT1AizRKj</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.025624,22.447549,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tin Shui Wai</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFP7QAXn3BZ7FSDt3ambWBO79j-7M75y3oJF_lv7Jx3KkM_y-PBhiUewawqo4HnrKRX8l1pFzvmz62QWDihpViHO8osHtI" height="200" width="auto" /><br><br>West Rail<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgFGcniaB89qXc32i9bg7VTo4O4Z4FWXoFx_BRiaciSeqC_WnfFzD1fV6quLL4EwJ1t431s8oYA3V0l5nywtI7IePTwmOl6GZei84ehVlj6E4pPz-3-3fS4TRa2eWkkIwQ" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-167</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFP7QAXn3BZ7FSDt3ambWBO79j-7M75y3oJF_lv7Jx3KkM_y-PBhiUewawqo4HnrKRX8l1pFzvmz62QWDihpViHO8osHtI https://lh3.googleusercontent.com/umsh/ANkjSgFGcniaB89qXc32i9bg7VTo4O4Z4FWXoFx_BRiaciSeqC_WnfFzD1fV6quLL4EwJ1t431s8oYA3V0l5nywtI7IePTwmOl6GZei84ehVlj6E4pPz-3-3fS4TRa2eWkkIwQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.004741,22.44798,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Siu Hong</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFRJKF5YnPJNSCgwrhj7D2RohbmYx4HVGG2cV1VtYBtb-LbBbAgVlReqJasfXPOT2nilNUOboDGqF6VJTmmCs0caVAvYrRjytokj5fAsg501YzSqT9SGfoQrA" height="200" width="auto" /><br><br>West Rail<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgHQgQSK-JvGSzX9e-jutOHMSPzfGsTOWX1Ei7YHgYy7VsV0i5hKq6KSeRWdY6oqAXByQPPm9ifggkQqW9ljxyKDZN9wY_F7su1DV7t99Ve5UuaiWibDuTdOTBqqX-zNJmHwOSuow_rJsrhk_zA1PNWqSc4n9RF-bYWX_XVEQrQSL6m1N2Hn2eONjr8RhlhFHfVu1q8QRhNbHQ" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-167</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFRJKF5YnPJNSCgwrhj7D2RohbmYx4HVGG2cV1VtYBtb-LbBbAgVlReqJasfXPOT2nilNUOboDGqF6VJTmmCs0caVAvYrRjytokj5fAsg501YzSqT9SGfoQrA https://lh3.googleusercontent.com/umsh/ANkjSgHQgQSK-JvGSzX9e-jutOHMSPzfGsTOWX1Ei7YHgYy7VsV0i5hKq6KSeRWdY6oqAXByQPPm9ifggkQqW9ljxyKDZN9wY_F7su1DV7t99Ve5UuaiWibDuTdOTBqqX-zNJmHwOSuow_rJsrhk_zA1PNWqSc4n9RF-bYWX_XVEQrQSL6m1N2Hn2eONjr8RhlhFHfVu1q8QRhNbHQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            113.97867,22.412377,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tuen Mun</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgHa_aducVOgL6unI8xZKtzAN9042TD3XljuyPqtMNXTSyX2eTZIRaZJVKY0GGaLFsWsVWR1k6FUpKZN6temG9Xk3_y-40P4PLbuf1lEJSr-wwbGEIv6JBXKoKh41BETWIv05OlLb8vCN6FmTUvTr2OafjRve-5qU-3AHqEKKAg5-0J5hH1l" height="200" width="auto" /><br><br>West Rail<br><br>The markets in the town were Tuen Mun Kau Hui, Tuen Mun San Hui and Sam Shing Hui. There are a substantial amount of government facillities also, including a magistrates court, registration office and other governmental office. Leisure facillities include several sports complex, a multi-story central library supplemented by two others, and a theatrical and concert venus in the shape of Tuen Mun Town Hall. Numerous facilities are located in western Tuen Mun, like Castle Peak Power Station and Black Point Power Station.]]></description>
+        <styleUrl>#icon-167</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgHa_aducVOgL6unI8xZKtzAN9042TD3XljuyPqtMNXTSyX2eTZIRaZJVKY0GGaLFsWsVWR1k6FUpKZN6temG9Xk3_y-40P4PLbuf1lEJSr-wwbGEIv6JBXKoKh41BETWIv05OlLb8vCN6FmTUvTr2OafjRve-5qU-3AHqEKKAg5-0J5hH1l</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            113.973182,22.394107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>East Rail</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgG76GIK8Mfqdy_hbLPvqULNhQMT2pSDL1Gbea9XS6sITXvza_aoe9_bjVT9u4eVI_9J8OihSGsdB8JzdPZH0SCM6Sjzqwk0TgWQ6ZNE1CRwwEcTkke2Px6OPvayY_DK4NUfxBdw0Kc60RE" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#line-666666-5000</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgG76GIK8Mfqdy_hbLPvqULNhQMT2pSDL1Gbea9XS6sITXvza_aoe9_bjVT9u4eVI_9J8OihSGsdB8JzdPZH0SCM6Sjzqwk0TgWQ6ZNE1CRwwEcTkke2Px6OPvayY_DK4NUfxBdw0Kc60RE</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.175565,22.295529,0
+            114.181606,22.302656,0
+            114.181638,22.307024,0
+            114.178956,22.310021,0
+            114.17623,22.31288,0
+            114.172862,22.320324,0
+            114.172604,22.32219,0
+            114.17631,22.33026,0
+            114.17678,22.33407,0
+            114.1763,22.33674,0
+            114.17376,22.34068,0
+            114.17,22.36083,0
+            114.16997,22.36241,0
+            114.17021,22.36417,0
+            114.17352,22.36937,0
+            114.17447,22.37027,0
+            114.18206,22.37571,0
+            114.18575,22.3803,0
+            114.18717,22.38255,0
+            114.19044,22.38647,0
+            114.19481,22.39058,0
+            114.19665,22.39272,0
+            114.19826,22.39535,0
+            114.19908,22.39525,0
+            114.19987,22.39591,0
+            114.20491,22.40325,0
+            114.20524,22.40404,0
+            114.20674,22.40503,0
+            114.2097,22.4065,0
+            114.21024,22.40699,0
+            114.21062,22.40747,0
+            114.21109,22.40875,0
+            114.21098,22.41005,0
+            114.20994,22.41264,0
+            114.21003,22.41367,0
+            114.21027,22.41433,0
+            114.21093,22.41513,0
+            114.21263,22.41673,0
+            114.21313,22.41785,0
+            114.21324,22.41873,0
+            114.21322,22.41985,0
+            114.21266,22.42193,0
+            114.21112,22.4237,0
+            114.2023,22.42951,0
+            114.2013,22.43048,0
+            114.20064,22.43148,0
+            114.20026,22.43243,0
+            114.2,22.43349,0
+            114.19963,22.43449,0
+            114.19919,22.43522,0
+            114.19862,22.43583,0
+            114.19764,22.43643,0
+            114.19683,22.43673,0
+            114.19009,22.43756,0
+            114.1883,22.43805,0
+            114.1798,22.44269,0
+            114.17804,22.44342,0
+            114.17624,22.444,0
+            114.17446,22.44445,0
+            114.17211,22.44445,0
+            114.16838,22.44472,0
+            114.16647,22.44541,0
+            114.16519,22.44632,0
+            114.16383,22.44785,0
+            114.16112,22.4511,0
+            114.16025,22.45206,0
+            114.15842,22.45311,0
+            114.15447,22.4548,0
+            114.15305,22.45593,0
+            114.15164,22.45738,0
+            114.15099,22.45926,0
+            114.15088,22.46134,0
+            114.15155,22.46422,0
+            114.15305,22.46878,0
+            114.15462,22.47703,0
+            114.15511,22.48202,0
+            114.15432,22.48402,0
+            114.15288,22.48595,0
+            114.15052,22.48749,0
+            114.1485,22.48813,0
+            114.14207,22.48952,0
+            114.13863,22.49213,0
+            114.11842,22.50943,0
+            114.11743,22.51064,0
+            114.11668,22.51199,0
+            114.11632,22.51337,0
+            114.11618,22.5145,0
+            114.11644,22.51754,0
+            114.11636,22.5206,0
+            114.11587,22.52228,0
+            114.11416,22.52546,0
+            114.11385,22.52593,0
+            114.11333,22.52706,0
+            114.11324,22.52747,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lo Wu</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgGCXX6DD-515RA1Yfv0plVoxEqE2cXo3DVvYd2Fg-B-6M3FsG0xoILu4YSAm5vMCOrkGX_fh0xcCe5FSx9BQFvnTb2byzfV6mkTDbFzGajeapSLXAjvC8Ga4jZvhR1we9wLbQXJM2SmpDMPCvjEAlSqYQiQUOBkJF0inUyvMKwqixk5JiA" height="200" width="auto" /><br><br>East Rail<br><br>Lo Wu is an area located in North District, New Territories in the Hong Kong. It lies on the borders of the Luohu District within Hong Kong and the city of Shenzhen in Guangdong Province. Lo Wu is a primary port of entry to Hong Kong from Shenzhen. Lo Wu Station is the northern terminus of the East Rail Line of Hong Kong, sitting in the southern bank of the Shenzhen River, the Frontier Closed Area on Hong Kong's northern frontier. The station serves as a primary checkpoint for rail passengers between Hong Kong and mainland China.]]></description>
+        <styleUrl>#icon-159</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgGCXX6DD-515RA1Yfv0plVoxEqE2cXo3DVvYd2Fg-B-6M3FsG0xoILu4YSAm5vMCOrkGX_fh0xcCe5FSx9BQFvnTb2byzfV6mkTDbFzGajeapSLXAjvC8Ga4jZvhR1we9wLbQXJM2SmpDMPCvjEAlSqYQiQUOBkJF0inUyvMKwqixk5JiA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.113258,22.527468,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sheung Shui</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFwOvX7jobZzu1aWjK8h52xWy6vREYdFkYDQqtKBjLBlcu_-1rwXJQhEPr1p2OfGH4N-uxDcGwFJvC0iAl0a7loJp0ib-FAZEZqbDtLyKuETEzB4x9f_YAeE6Sd9tNO7fumUmvmVDY5jys" height="200" width="auto" /><br><br>East Rail]]></description>
+        <styleUrl>#icon-159</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFwOvX7jobZzu1aWjK8h52xWy6vREYdFkYDQqtKBjLBlcu_-1rwXJQhEPr1p2OfGH4N-uxDcGwFJvC0iAl0a7loJp0ib-FAZEZqbDtLyKuETEzB4x9f_YAeE6Sd9tNO7fumUmvmVDY5jys</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.127929,22.501277,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fanling</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgHUrZh7xyWCBpszXN872HLqrG7AYy3I0Dse83VBtAMy6lxHFG_m8SCE0pOghUpHH3zkOebwXJ5dtil68JbWN8cU1SzDtdpKNEYAQOfmvzP4Jlfw0ITdtjD1Q_Lhi6LYRLqr4kTyW5MXchU" height="200" width="auto" /><br><br>East Rail<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgGWkO-36K2W6f0Ao3-DVD_fJWghPjPOxCvfoe_JeoDJHszZ9G7thLo3eC0_qqucXtQAEEfHH6vIVCerCSLJYLNj0gat-axrgw_S3kG9g-aVPXChD-LY2ABVc_Qz-g" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-159</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgHUrZh7xyWCBpszXN872HLqrG7AYy3I0Dse83VBtAMy6lxHFG_m8SCE0pOghUpHH3zkOebwXJ5dtil68JbWN8cU1SzDtdpKNEYAQOfmvzP4Jlfw0ITdtjD1Q_Lhi6LYRLqr4kTyW5MXchU https://lh3.googleusercontent.com/umsh/ANkjSgGWkO-36K2W6f0Ao3-DVD_fJWghPjPOxCvfoe_JeoDJHszZ9G7thLo3eC0_qqucXtQAEEfHH6vIVCerCSLJYLNj0gat-axrgw_S3kG9g-aVPXChD-LY2ABVc_Qz-g</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.138658,22.492138,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tai Wo</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEb3yMPiY5r9pQw5m2_M3xrVbHtiB-aDEB2XU_IMiOCuXxwrIIfrUaMiUw86Jk8y6RIakyK9i5Oh2tmxMn_qyKPFoUzYp0MrBz0iPwwaLHePptlAwhncJGJ8AZoYNk" height="200" width="auto" /><br><br>East Rail<br><br>Tai Wo is an urban area in Tai Po in the New Territories of Hong Kong that now forms the northern part of Tai Po New Town. It has its own railway station on the MTR and a market. Tai Wo Estate is a large public housing estate in Tai Wo; its shopping centre is adjacent to the Tai Wo MTR station.<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgFKwJbauR4bioLE9y-iOG3_rgGbgoZdF-RNVGC-WX2CGtS5_euHWsCPcf_pSWxV_PyN5szrpTHMD6GuIz78rjbYVd0eg1c1jnvmnM3lrHVHr4NKYtdYh9TxfAuNigoP6_UWUAZ8EZlhXpy5MYh2xV1bs3REPA" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-159</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEb3yMPiY5r9pQw5m2_M3xrVbHtiB-aDEB2XU_IMiOCuXxwrIIfrUaMiUw86Jk8y6RIakyK9i5Oh2tmxMn_qyKPFoUzYp0MrBz0iPwwaLHePptlAwhncJGJ8AZoYNk https://lh3.googleusercontent.com/umsh/ANkjSgFKwJbauR4bioLE9y-iOG3_rgGbgoZdF-RNVGC-WX2CGtS5_euHWsCPcf_pSWxV_PyN5szrpTHMD6GuIz78rjbYVd0eg1c1jnvmnM3lrHVHr4NKYtdYh9TxfAuNigoP6_UWUAZ8EZlhXpy5MYh2xV1bs3REPA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.161146,22.451054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tai Po Market</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEVHxwxUL5gQK3eAF3U1ohswkk87AnBGEiPYOsPPD6Rujjkba7Hst4Ts7a4jqnUlPjNCdi7-XR29lZ8-_oH70E9ttVVuZrG-jM66YBEQ714VQNm" height="200" width="auto" /><br><br>East Rail<br> <br>Tai Po refers to the area of the traditional market towns in the area presently known as Tai Po Old Market and the Tai Wo Town (Tai Wo Market) on the other side of the Lam Tsuen River, near the old Tai Po Market Station of the Kowloon-Canton Railway British Section, within the Tai Po District in Hong Kong.]]></description>
+        <styleUrl>#icon-159</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEVHxwxUL5gQK3eAF3U1ohswkk87AnBGEiPYOsPPD6Rujjkba7Hst4Ts7a4jqnUlPjNCdi7-XR29lZ8-_oH70E9ttVVuZrG-jM66YBEQ714VQNm</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.170496,22.444571,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>University</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgHiuolujdY8JYJI_wFB87dthgvqX2bgTWpJ4iSeSw9Oh5w42kkyjrZMV-zEkvw0ho4-9MJ6Q4AA13r_ElkDk580TG0Fo1HYDhuQFFg4owNNvN0MBl1x13SaPVsR" height="200" width="auto" /><br><br>East Rail<br><br>University Station is a station located near the Chinese University of Hong Kong in Ma Liu Shui. It is between Tai Po Market, and Fo Tan / Racecourse stations on the East Rail Line. This station is the first post-war station on the line, and has the most curved track of any station.]]></description>
+        <styleUrl>#icon-159</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgHiuolujdY8JYJI_wFB87dthgvqX2bgTWpJ4iSeSw9Oh5w42kkyjrZMV-zEkvw0ho4-9MJ6Q4AA13r_ElkDk580TG0Fo1HYDhuQFFg4owNNvN0MBl1x13SaPVsR</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.210037,22.413667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Racecourse</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgF5LW3n3ktAf0zkHvVLgfz9YuIP6k3OUJ5e9YhnJ5M8KwTwx-Q0clgB_FbGow9mIRZRhqJB-PB5zfiPtMMaJRGpQpJVJJbCTSuk6-5y10o_YA1mWcRDjOX9ZA_i5EXbodROLL2n" height="200" width="auto" /><br><br>East Rail<br>Open on racing days only<br><br><br>Racecourse is a station on the East Rail Line of Hong Kong. It was opened in 1983 and is only used on race days and special days held in the Sha Tin Racecourse. There are single journey tickets to the station available separately. It is linked with Sha Tin and University stations, and is a parallel station with Fo Tan.<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgFfcL0pYEE1NSwVYcZaoWnUa8tCL5Oypef4OCf-GcLNVM8jEyWpntNYsrZpKXOffS8KxlOCBvRKenqJl4T4tLnIIIUzn8VcSx9WEsNYGH6HTY-LgLyxb9c_R_7dBq2d" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-159</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgF5LW3n3ktAf0zkHvVLgfz9YuIP6k3OUJ5e9YhnJ5M8KwTwx-Q0clgB_FbGow9mIRZRhqJB-PB5zfiPtMMaJRGpQpJVJJbCTSuk6-5y10o_YA1mWcRDjOX9ZA_i5EXbodROLL2n https://lh3.googleusercontent.com/umsh/ANkjSgFfcL0pYEE1NSwVYcZaoWnUa8tCL5Oypef4OCf-GcLNVM8jEyWpntNYsrZpKXOffS8KxlOCBvRKenqJl4T4tLnIIIUzn8VcSx9WEsNYGH6HTY-LgLyxb9c_R_7dBq2d</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.202645,22.399929,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fo Tan</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFaGUnLFLENIHH67rYqDL6c62rzokIHtGg_i978kcMSzvNEbSAINe6osWrHCGZqzIActwVlPDJr5wDjlZo08yIw7WuxWo0Z4avrFO-j_QyT32mblUpG43WceOh2Sb--PnU" height="200" width="auto" /><br><br>East Rail<br><br>Fo Tan is a suburb of Sha Tin, in Hong Kong. It was developed as a light industrial area, but this activity has declined markedly in recent years. There are residential areas to the east, alongside the MTR line, and in the foothills to the west.]]></description>
+        <styleUrl>#icon-159</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFaGUnLFLENIHH67rYqDL6c62rzokIHtGg_i978kcMSzvNEbSAINe6osWrHCGZqzIActwVlPDJr5wDjlZo08yIw7WuxWo0Z4avrFO-j_QyT32mblUpG43WceOh2Sb--PnU</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.19831,22.395346,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sha Tin</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgGGq3oZX--nN3NkQ74FrZjBZdDusUTwhNBWXM4WZbdTNSvWEgwmPgWqz8P2HXL7CNbB13RTGczTJZHgZD04eu7OkyM5XcoYRyn9YQRBCLs4tvvqn8dF6gXIaMDo-KXYXHgJb1DVatVlChfhMDXrRNgIrjfm8Ip07nxuM5Atxqoo19a7cxPEefD43sxGkhtMdNrw2wk" height="200" width="auto" /><br><br>East Rail<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgHKEAWYvuAwvEQXsS_TfQPiV9cTbLT3qJfNa_qSvZx7WyaLsW9bF4syKOlIR37NblS7cB9Y31YwxJCAWJhaxDONDDXZbHcQ7aObdKXzrRk6C1dU_uM9c_pYr8mecKrdri47X0_KHWngs23nku8" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgHrZsTk6GYi5V3FIGPtT_2zJdu7Pp2UYAFJbKHqziIdUTFr8TIBaa0dEKzM8jJEcVyIBUNHLYQxa64UtXhOHbOMwytZWJD9-hnTrjAzmpCEBiIMQLOaJyrqUpn_sr2yo1yi5blPPcy3gQ" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-159</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgGGq3oZX--nN3NkQ74FrZjBZdDusUTwhNBWXM4WZbdTNSvWEgwmPgWqz8P2HXL7CNbB13RTGczTJZHgZD04eu7OkyM5XcoYRyn9YQRBCLs4tvvqn8dF6gXIaMDo-KXYXHgJb1DVatVlChfhMDXrRNgIrjfm8Ip07nxuM5Atxqoo19a7cxPEefD43sxGkhtMdNrw2wk https://lh3.googleusercontent.com/umsh/ANkjSgHKEAWYvuAwvEQXsS_TfQPiV9cTbLT3qJfNa_qSvZx7WyaLsW9bF4syKOlIR37NblS7cB9Y31YwxJCAWJhaxDONDDXZbHcQ7aObdKXzrRk6C1dU_uM9c_pYr8mecKrdri47X0_KHWngs23nku8 https://lh3.googleusercontent.com/umsh/ANkjSgHrZsTk6GYi5V3FIGPtT_2zJdu7Pp2UYAFJbKHqziIdUTFr8TIBaa0dEKzM8jJEcVyIBUNHLYQxa64UtXhOHbOMwytZWJD9-hnTrjAzmpCEBiIMQLOaJyrqUpn_sr2yo1yi5blPPcy3gQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.187163,22.38253,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tai Wai</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFoGpRWdDPDYM_uBsuT2PHmGNSNcE2Xz7TzaaMzcGsBFsTBg4oNKOy-7vJms-gcfndUnzdJ-d8OCNqa9zNxEdeAFgwFlpaXWOKnPcD_2UGZaG7lrccjy6RE9XsXH_-JFkgaqueIEDqt9lAEGwsZ3O_-t36EuHH8PcLgosFt7aQ1Keu-n8GYCAtlNEWye5AMW6XD5QUuCnG1emDmLgg" height="200" width="auto" /><br><br>East Rail<br><br>Tai Wai is most famous for its Cycling Park.]]></description>
+        <styleUrl>#icon-159</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFoGpRWdDPDYM_uBsuT2PHmGNSNcE2Xz7TzaaMzcGsBFsTBg4oNKOy-7vJms-gcfndUnzdJ-d8OCNqa9zNxEdeAFgwFlpaXWOKnPcD_2UGZaG7lrccjy6RE9XsXH_-JFkgaqueIEDqt9lAEGwsZ3O_-t36EuHH8PcLgosFt7aQ1Keu-n8GYCAtlNEWye5AMW6XD5QUuCnG1emDmLgg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.177593,22.37245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kowloon Tong</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgHZQh3JCUalwJQ9IyJoDg11F-KJfud-NlODpRNaN9Yg-utWLQd_ND3-lnImU9_GTnxAs1bSBw6TiJKZNeJ1j2Zcut1gd9fDC7NOv6EAr68bv-PeYX4N-vYyEZNEUCkJregBun233gUneRBl3uahGpC1G2pM" height="200" width="auto" /><br><br>East Rail<br>Interchange station with MTR Kowloon Tong station, Kwun Tong line<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgEznyna_6X4cptOnex5jlurau4TF3czYebAfkj64TuqCh5GDVvvM7dE2wI6yaa-yNLbBWW6mvW-xe56ZnSF4P38miX0wcKRIxTko7DjajP-l7MeoJGjLdZKlCmXenY0T4jbkMqHOCZ4brg7u7ujONWXW4k" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-159</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgHZQh3JCUalwJQ9IyJoDg11F-KJfud-NlODpRNaN9Yg-utWLQd_ND3-lnImU9_GTnxAs1bSBw6TiJKZNeJ1j2Zcut1gd9fDC7NOv6EAr68bv-PeYX4N-vYyEZNEUCkJregBun233gUneRBl3uahGpC1G2pM https://lh3.googleusercontent.com/umsh/ANkjSgEznyna_6X4cptOnex5jlurau4TF3czYebAfkj64TuqCh5GDVvvM7dE2wI6yaa-yNLbBWW6mvW-xe56ZnSF4P38miX0wcKRIxTko7DjajP-l7MeoJGjLdZKlCmXenY0T4jbkMqHOCZ4brg7u7ujONWXW4k</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.176311,22.336734,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mong Kok East</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgE8ipnAX0huMHd_YyXElKKcNfsBABnFey5_Px3N_IcdARSuK0X75Hl3rsu2w6n7fFLIQ0KPgBveyy19dK4embaxNyYKr9tOh5YdmRsVaPCZBDIFP8orkdGX-eIIFh0" height="200" width="auto" /><br><br>East Rail<br> <br>The district is characterized by a mixture of old and new multi-story buildings, with shops and restaurants at street level and commercial or residential units above. Major industries in Mong Kok are retail, restaurants (including fast food) and entertainment. Mong Kok preserves its traditional characteristics with an array of markets, small shops, and food stalls that have already disappeared from other areas in Hong Kong over the past several decades of economic developments. The Mong Kok area has many curb-side "food-booths". Most of them sell traditional snacks such as fish balls, fried beancurd (tofu) and various dim sum.]]></description>
+        <styleUrl>#icon-159</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgE8ipnAX0huMHd_YyXElKKcNfsBABnFey5_Px3N_IcdARSuK0X75Hl3rsu2w6n7fFLIQ0KPgBveyy19dK4embaxNyYKr9tOh5YdmRsVaPCZBDIFP8orkdGX-eIIFh0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.172636,22.322021,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hung Hom</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgGw34EY9QvvioA23g69wkUAtdAz_Ib-5LGElnV5W8J_mBLqiugb4J3AANTizHcYHCbtPAPNp-pUnPiZyzbfmasG5Ojk4whf9ddiYAgkzKrSQqn_EBQGk5DjhuWXFWqUSDH022T-vNwf-hLL" height="200" width="auto" /><br><br>East Rail<br> <br><br>Hung Hom is an area of Kowloon, in Hong Kong, administratively part of the Kowloon City District, with a portion west of the railway in the Yau Tsim Mong District. It is located nearby to Tsim Sha Tsui. The north part of the area is mainly for residential purposes and is mixed with some industrial buildings. The south part is a residential area, nearby the Victoria Harbour. The Hung Hom Bay was reclaimed.<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgER-fk9ppIUFE3FMTNHwbigx6qX6XNDBtBvdRJbaVvAzjwPbIg2_FE9sNEc2VYJP_6vrnQv2u7MhrpEz6JS_roFQdabJwJDctBdqaNnmIACch9oo5JENOJoO0RtIQ8" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-159</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgGw34EY9QvvioA23g69wkUAtdAz_Ib-5LGElnV5W8J_mBLqiugb4J3AANTizHcYHCbtPAPNp-pUnPiZyzbfmasG5Ojk4whf9ddiYAgkzKrSQqn_EBQGk5DjhuWXFWqUSDH022T-vNwf-hLL https://lh3.googleusercontent.com/umsh/ANkjSgER-fk9ppIUFE3FMTNHwbigx6qX6XNDBtBvdRJbaVvAzjwPbIg2_FE9sNEc2VYJP_6vrnQv2u7MhrpEz6JS_roFQdabJwJDctBdqaNnmIACch9oo5JENOJoO0RtIQ8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.181584,22.302666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>East Tsim Sha Tsui</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgHMrHczkrIMLANWQ_l-yTEGuNa9UlhXiF4cBS5hl6w9oMEeOYN91Ffef-8jICl4sFX0CMUzfSU564syW59Ewp_ERbOR0bAQFJ6QkdTv0oN8iDtgi34_RnhZJjF0tmbMYg" height="200" width="auto" /><br><br>East Rail]]></description>
+        <styleUrl>#icon-159</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgHMrHczkrIMLANWQ_l-yTEGuNa9UlhXiF4cBS5hl6w9oMEeOYN91Ffef-8jICl4sFX0CMUzfSU564syW59Ewp_ERbOR0bAQFJ6QkdTv0oN8iDtgi34_RnhZJjF0tmbMYg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.175522,22.295529,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ma On Shan Rail</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgG76GIK8Mfqdy_hbLPvqULNhQMT2pSDL1Gbea9XS6sITXvza_aoe9_bjVT9u4eVI_9J8OihSGsdB8JzdPZH0SCM6Sjzqwk0TgWQ6ZNE1CRwwEcTkke2Px6OPvayY_DK4NUfxBdw0Kc60RE" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#line-000000-5000</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgG76GIK8Mfqdy_hbLPvqULNhQMT2pSDL1Gbea9XS6sITXvza_aoe9_bjVT9u4eVI_9J8OihSGsdB8JzdPZH0SCM6Sjzqwk0TgWQ6ZNE1CRwwEcTkke2Px6OPvayY_DK4NUfxBdw0Kc60RE</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.18624,22.375059,0
+            114.194781,22.376974,0
+            114.203535,22.382986,0
+            114.208632,22.387936,0
+            114.210391,22.390119,0
+            114.209619,22.392509,0
+            114.20979,22.39496,0
+            114.21155,22.398293,0
+            114.214768,22.401903,0
+            114.219918,22.404958,0
+            114.222633,22.408241,0
+            114.226012,22.417704,0
+            114.227579,22.422048,0
+            114.228469,22.423466,0
+            114.229521,22.424041,0
+            114.231999,22.424854,0
+            114.234703,22.425548,0
+            114.238747,22.426124,0
+            114.242181,22.428672,0
+            114.243543,22.429238,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Wu Kai Sha</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgGRd07gWhx4Ig19ULlT4wkzUDl6NT2uKBw6lzqhozg81aS7qZJ9Z14t8c1VuemB7Yw-Qrh-GfjiBMUwMUHWiDXRYjl2UBqNwLb1vqILnhr16r5DZmOyfnTHrw" height="200" width="auto" /><br><br>Ma On Shan Rail<br><br>Before the area was developed, there existed only rough roads to the area. Many residents and visitors took kai to boats from Ma Liu Shui, near the MTR University Station, across Tolo Harbour to the area. With the extension of the new town to the northwestern side of Ma On Shan, roads were extended and expanded. Sai Sha Road is an alternative way go to Sai Kung. In 2001, the Kowloon-Canton Railway Corporation began construction of the Ma On Shan Rail system, which currently terminates at Wu Kai Sha Station. It is famous for a campsite, Wu Kai Sha Youth Village of YMCA. Originally there were only a few villages like Wu Kwai Sha Village. It is now an extension of a new town in Ma On Shan. There is also a beach near the Wu Kai Sha Youth Village.]]></description>
+        <styleUrl>#icon-168</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgGRd07gWhx4Ig19ULlT4wkzUDl6NT2uKBw6lzqhozg81aS7qZJ9Z14t8c1VuemB7Yw-Qrh-GfjiBMUwMUHWiDXRYjl2UBqNwLb1vqILnhr16r5DZmOyfnTHrw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.243511,22.429228,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ma On Shan</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgGQZTZ93iNcepHIZKnhWCEiBxvPMuXUtUQ9PvpYfOYAgukUEA-8LGCPoJrhuoPWcUhxvfyngcS7JJal_nGxrdy8JBXsFT1kbOItEG75UwP-lHvxaaj7LoJiCB3Y5jqojtW9W2jhMbF1WVbHM5ed1s-5-hxa-Gy50zPBsdp_k_odq5R3htoV4RSj2o22J40ox08d84v71HSUJWyMgStRJNNRVYmYRQfFWIe1P6_-ARJ-dxH8" height="200" width="auto" /><br><br>Ma On Shan Rail]]></description>
+        <styleUrl>#icon-168</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgGQZTZ93iNcepHIZKnhWCEiBxvPMuXUtUQ9PvpYfOYAgukUEA-8LGCPoJrhuoPWcUhxvfyngcS7JJal_nGxrdy8JBXsFT1kbOItEG75UwP-lHvxaaj7LoJiCB3Y5jqojtW9W2jhMbF1WVbHM5ed1s-5-hxa-Gy50zPBsdp_k_odq5R3htoV4RSj2o22J40ox08d84v71HSUJWyMgStRJNNRVYmYRQfFWIe1P6_-ARJ-dxH8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.232053,22.424854,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Heng On</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgE3_5VwrzsLYSwaMQFOsvSUjXB4U2qW061xccmwDh7-w5kahWRQmQR126bdbAz18YJaDft8qXsJV7eHcrE-m0h8oGjZ212MU1Y8AKCcDlb88nj6BWdOQtVO3A" height="200" width="auto" /><br><br>Ma On Shan Rail]]></description>
+        <styleUrl>#icon-168</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgE3_5VwrzsLYSwaMQFOsvSUjXB4U2qW061xccmwDh7-w5kahWRQmQR126bdbAz18YJaDft8qXsJV7eHcrE-m0h8oGjZ212MU1Y8AKCcDlb88nj6BWdOQtVO3A</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.226023,22.417664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tai Shui Hang</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEYoKPvf178ibud157OeYldwSaciorDsiQTEmc4xvHHX0OnOkpHWbs3v-a5mLxhARM0x2wf4Dsez-yXKRQ749fVeY8dqG0mWlBK1H8fTeJ76PVLb4kh57wDTwBC_0lLUfUo9knpou3s9g" height="200" width="auto" /><br><br>Ma On Shan Rail<br> <br>Tai Shui Hang is a station on the Ma On Shan Line of Hong Kong. It serves residential estates such as Kam Tai Court, Mountain Shore, Chevalier Garden,Sausalito and Sha Tin Fishermen's New Village. It also serves five kindergarten, primary and secondary schools. The pattern featured on the platform pillar and glass barrier is a shot of nature representing the Ma On Shan Country Park.]]></description>
+        <styleUrl>#icon-168</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEYoKPvf178ibud157OeYldwSaciorDsiQTEmc4xvHHX0OnOkpHWbs3v-a5mLxhARM0x2wf4Dsez-yXKRQ749fVeY8dqG0mWlBK1H8fTeJ76PVLb4kh57wDTwBC_0lLUfUo9knpou3s9g</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.222622,22.408241,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shek Mun</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEBUYQYGOKQsqzTrn0P0yD7nAcTvqdlS15NbBEvsdkkBfRyDbkCCyI1miruyVvL4yyeMNEYIdp8F2L1Dw3BXue9qzjdOPiZHPha7dtFrxr_qjmL1OI" height="200" width="auto" /><br><br>Ma On Shan Rail<br><br>Several educational facilities exist in Shek Mun. Those include International Christian School, which is close to the City One apartment and shopping complexes. A branch of the Hong Kong Baptist University is also close to the train station, as well as a local public school which is run by the university, which runs both a primary and secondary section.]]></description>
+        <styleUrl>#icon-168</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEBUYQYGOKQsqzTrn0P0yD7nAcTvqdlS15NbBEvsdkkBfRyDbkCCyI1miruyVvL4yyeMNEYIdp8F2L1Dw3BXue9qzjdOPiZHPha7dtFrxr_qjmL1OI</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.208653,22.387887,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>City One</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgGtRH7NZxRoMnlkHOFGCo0U-YarwbNDNz-WkJmPE-n7yYDX6TktkRMgNhzTwaFtP5btQKOOvxWENtc1LByyONoRSTES3MhEO3_pInMlHJDz_6UsFVpHVm9TlG0Ba2XTI57PD4JWbSiS1O1d8jALUOJ6PxsIphgCUfwsAahbY3L24tQHeQ-er02ZAKkD3lFpgUTj1lm2VZ2cf5y6EL4EKwt0nSSPxo0LfTyHDJ_RUpFe" height="200" width="auto" /><br><br>Ma On Shan Rail]]></description>
+        <styleUrl>#icon-168</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgGtRH7NZxRoMnlkHOFGCo0U-YarwbNDNz-WkJmPE-n7yYDX6TktkRMgNhzTwaFtP5btQKOOvxWENtc1LByyONoRSTES3MhEO3_pInMlHJDz_6UsFVpHVm9TlG0Ba2XTI57PD4JWbSiS1O1d8jALUOJ6PxsIphgCUfwsAahbY3L24tQHeQ-er02ZAKkD3lFpgUTj1lm2VZ2cf5y6EL4EKwt0nSSPxo0LfTyHDJ_RUpFe</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.203535,22.382956,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sha Tin Wai</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgEdb9NkAIW8F9bKWD4vOEbXtwWvXhe0OXa9Nq3w4B5GK7U20W6bsatECJ_X_O6QyY3ywhjzYtg_h-b1e_2Yj2j5LKxeMm0PRuLXo-lMAseZnrb8hfUtY6nhWK2Uf1Gd" height="200" width="auto" /><br><br>Ma On Shan Rail]]></description>
+        <styleUrl>#icon-168</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgEdb9NkAIW8F9bKWD4vOEbXtwWvXhe0OXa9Nq3w4B5GK7U20W6bsatECJ_X_O6QyY3ywhjzYtg_h-b1e_2Yj2j5LKxeMm0PRuLXo-lMAseZnrb8hfUtY6nhWK2Uf1Gd</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.19477,22.376944,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Che Kung Temple</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgFwoPZQImVkQVMzCP27fzGbV7L6UZpkXKxEVf58ImRxjgkdrj1OgJSbcaNJYX3Tc3zwvTLy0ADUfxk0ubMSaWPy_gpsU95tVC0Y0r-NNtMTCn8J5OdMrrygISCpXl2NKkMy" height="200" width="auto" /><br><br>Ma On Shan Rail<br><br><br>Che Kung Temple is a station on Hong Kong's Ma On Shan Line. It is located on Che Kung Miu Road, Sha Tin. Its position was Sha Tin Tau Temporary Housing Area, so it was originally named as "Sha Tin Tau Station" before the Ma On Shan Line operated. It is located near the Che Kung Miu temple. On the third day of the first month in the Chinese calendar (also known as the third day of the Lunar New Year) many people use the station to get to the temple. The station is always crowded during those days.<br><br><img src="https://lh3.googleusercontent.com/umsh/ANkjSgEwZh6HcYVMrfvFKPy6aZ2sxQADyVOandEU9HlboK0ziqmKNlQOQVFnTURCA1YBAzke9lYe9-CtTMpl7cDcBaG40BTp4wCTzSN-wJaHDFqoqXP4FFMdOjU8Vgdibr059Ill616Y6c7OtoUFEEK9gpqszknEdEakuxFwAI9Z1abvGgMuLz4OUH76WDj6niBRTg" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-168</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgFwoPZQImVkQVMzCP27fzGbV7L6UZpkXKxEVf58ImRxjgkdrj1OgJSbcaNJYX3Tc3zwvTLy0ADUfxk0ubMSaWPy_gpsU95tVC0Y0r-NNtMTCn8J5OdMrrygISCpXl2NKkMy https://lh3.googleusercontent.com/umsh/ANkjSgEwZh6HcYVMrfvFKPy6aZ2sxQADyVOandEU9HlboK0ziqmKNlQOQVFnTURCA1YBAzke9lYe9-CtTMpl7cDcBaG40BTp4wCTzSN-wJaHDFqoqXP4FFMdOjU8Vgdibr059Ill616Y6c7OtoUFEEK9gpqszknEdEakuxFwAI9Z1abvGgMuLz4OUH76WDj6niBRTg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            114.186262,22.375049,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
